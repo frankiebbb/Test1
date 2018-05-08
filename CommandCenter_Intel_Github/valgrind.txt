@@ -1,0 +1,2961 @@
+==12916== Memcheck, a memory error detector
+==12916== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==12916== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==12916== Command: /home/frank/workspace_oxygen2/CommandCenter_Intel_8.4/CC_Intel/CommandCenter_Intel_8.4
+==12916== 
+2018-04-27 08:51:41:522	Starting Program ...
+2018-04-27 08:51:44:858	Waiting for the schema
+2018-04-27 08:51:44:894	Schema found
+2018-04-27 08:51:44:907	Waiting for panels to link 
+2018-04-27 08:52:00:848	Panel BLC1 linked
+2018-04-27 08:52:07:767	Panel AHP linked
+2018-04-27 08:52:07:780	All Panels linked 
+psi = 268 tf = -200
+psi = 278 tf = -190
+psi = 287 tf = -180
+psi = 297 tf = -170
+psi = 307 tf = -160
+psi = 317 tf = -150
+psi = 327 tf = -140
+psi = 337 tf = -130
+psi = 348 tf = -120
+psi = 359 tf = -110
+psi = 370 tf = -100
+psi = 381 tf = -90
+psi = 392 tf = -80
+psi = 404 tf = -70
+psi = 415 tf = -60
+psi = 427 tf = -50
+psi = 439 tf = -40
+psi = 451 tf = -30
+psi = 464 tf = -20
+psi = 477 tf = -10
+psi = 489 tf = 0
+psi = 502 tf = 10
+psi = 516 tf = 20
+psi = 529 tf = 30
+psi = 543 tf = 40
+psi = 557 tf = 50
+psi = 571 tf = 60
+psi = 585 tf = 70
+psi = 600 tf = 80
+psi = 614 tf = 90
+psi = 629 tf = 100
+psi = 645 tf = 110
+psi = 660 tf = 120
+psi = 676 tf = 130
+psi = 692 tf = 140
+psi = 708 tf = 150
+psi = 724 tf = 160
+psi = 741 tf = 170
+psi = 758 tf = 180
+psi = 775 tf = 190
+psi = 792 tf = 200
+psi = 810 tf = 210
+psi = 828 tf = 220
+psi = 846 tf = 230
+psi = 864 tf = 240
+psi = 883 tf = 250
+psi = 902 tf = 260
+psi = 921 tf = 270
+psi = 940 tf = 280
+psi = 960 tf = 290
+psi = 980 tf = 300
+psi = 1000 tf = 310
+psi = 1020 tf = 320
+psi = 1041 tf = 330
+psi = 1062 tf = 340
+psi = 1084 tf = 350
+psi = 1105 tf = 360
+psi = 1127 tf = 370
+psi = 1149 tf = 380
+psi = 1172 tf = 390
+psi = 1194 tf = 400
+psi = 1218 tf = 410
+psi = 1241 tf = 420
+psi = 1265 tf = 430
+psi = 1289 tf = 440
+psi = 1313 tf = 450
+psi = 1338 tf = 460
+psi = 1362 tf = 470
+psi = 1388 tf = 480
+psi = 1413 tf = 490
+psi = 1439 tf = 500
+psi = 1465 tf = 510
+psi = 1492 tf = 520
+psi = 1519 tf = 530
+psi = 1546 tf = 540
+psi = 1573 tf = 550
+psi = 1601 tf = 560
+psi = 1629 tf = 570
+psi = 1658 tf = 580
+psi = 1687 tf = 590
+psi = 1716 tf = 600
+psi = 1746 tf = 610
+psi = 1776 tf = 620
+psi = 1806 tf = 630
+psi = 1837 tf = 640
+psi = 1868 tf = 650
+psi = 1899 tf = 660
+psi = 1931 tf = 670
+psi = 1963 tf = 680
+psi = 1996 tf = 690
+psi = 2028 tf = 700
+psi = 2062 tf = 710
+psi = 2095 tf = 720
+psi = 2129 tf = 730
+psi = 2164 tf = 740
+psi = 2199 tf = 750
+psi = 2234 tf = 760
+psi = 2269 tf = 770
+psi = 2305 tf = 780
+psi = 2342 tf = 790
+psi = 2379 tf = 800
+psi = 2416 tf = 810
+psi = 2454 tf = 820
+psi = 2492 tf = 830
+psi = 2530 tf = 840
+psi = 2569 tf = 850
+psi = 2608 tf = 860
+psi = 2648 tf = 870
+psi = 2688 tf = 880
+psi = 2729 tf = 890
+psi = 2770 tf = 900
+psi = 2811 tf = 910
+psi = 2853 tf = 920
+psi = 2896 tf = 930
+psi = 2939 tf = 940
+psi = 2982 tf = 950
+psi = 3026 tf = 960
+psi = 3070 tf = 970
+psi = 3115 tf = 980
+psi = 3160 tf = 990
+psi = 3205 tf = 1000
+2018-04-27 08:52:08:172	alarmVoltageMonitor AlarmStandby
+2018-04-27 08:52:08:197	alarmFireStat AlarmStandby
+2018-04-27 08:52:08:201	alarmBlowerOverload AlarmStandby
+2018-04-27 08:52:08:211	alarmExhaust1Overload AlarmStandby
+2018-04-27 08:52:08:216	alarmFreezestat AlarmStandby
+2018-04-27 08:52:08:223	alarmExhaust2Overload AlarmStandby
+2018-04-27 08:52:08:227	alarmPurge AlarmStandby
+2018-04-27 08:52:08:254	alarmNoAirflow AlarmStandby
+2018-04-27 08:52:08:357	alarmComp1HP AlarmStandby
+2018-04-27 08:52:08:375	alarmComp1LP AlarmStandby
+2018-04-27 08:52:08:390	alarmComp1Oil AlarmStandby
+2018-04-27 08:52:08:395	alarmComp1HighDis AlarmStandby
+2018-04-27 08:52:08:402	alarmComp1LowSH AlarmStandby
+2018-04-27 08:52:08:411	alarmComp1Fault AlarmStandby
+2018-04-27 08:52:08:417	alarmPumpFault AlarmStandby
+2018-04-27 08:52:08:426	alarmOACU1Overload AlarmStandby
+2018-04-27 08:52:08:463	alarmPool1NoWaterflow AlarmStandby
+2018-04-27 08:52:08:469	alarmPool1FlowHigh AlarmStandby
+2018-04-27 08:52:08:474	alarmPool1HighTemp AlarmStandby
+2018-04-27 08:52:08:476	Creating State Machines...
+2018-04-27 08:52:10:402	State: PowerUpBlower
+Choose between Normal or Service Mode
+2018-04-27 08:52:10:497	State: DisabledExhaust1
+2018-04-27 08:52:10:568	State: DisabledExhaust2
+2018-04-27 08:52:10:675	State: DisabledCompressorCircuit1
+2018-04-27 08:52:10:706	State: IdleCompressorReheat
+2018-04-27 08:52:10:719	State: IdleCompressorBypassCompressorBypass
+2018-04-27 08:52:10:737	State: IdleCompressorOACU
+2018-04-27 08:52:10:751	State: IdleCompressorPoolCoax
+2018-04-27 08:52:10:798	State: DisabledHumidityControl
+2018-04-27 08:52:10:856	State: DisabledAirHeaterControl
+2018-04-27 08:52:10:891	State: DisabledSupplyAirControl
+2018-04-27 08:52:10:921	State: DisabledRoomTempControl
+2018-04-27 08:52:10:979	State: DisablePoolWater
+2018-04-27 08:52:11:020	aiReturnAirTemperature Value: 70.5
+2018-04-27 08:52:11:073	aiReturnAirHumidity Value: 40.5
+2018-04-27 08:52:11:098	aiPoolInTemperature Value: 70.5
+2018-04-27 08:52:11:119	State: BlowerActive Event: evBlowerEnabledPar
+2018-04-27 08:52:11:213	State: BlowerActive Event: evCompressorState1
+2018-04-27 08:52:11:218	State: IdleCompressorReheat Event: evReheatValveAdjustment
+2018-04-27 08:52:11:220	State: AdjustingCompressorReheat
+Update Reheat: 90
+dispatchEvent(evPoolHeatValveAdjustment)
+2018-04-27 08:52:11:254	State: IdleCompressorPoolCoax Event: evPoolHeatValveAdjustment
+2018-04-27 08:52:11:256	State: AdjustingCompressorPoolCoax
+2018-04-27 08:52:11:423	aiCompressor1EvaporationTemperature Value: 71.0
+2018-04-27 08:52:11:532	aiReturnAirTemperature Value: 70.7
+2018-04-27 08:52:11:550	aiCompressor1EvaporationTemperature Value: 71.2
+2018-04-27 08:52:11:554	diVoltageMonitor Value: OFF
+2018-04-27 08:52:11:556	diBlowerOverload Value: OFF
+2018-04-27 08:52:11:574	aiCompressor1EvaporationTemperature Value: 71.0
+2018-04-27 08:52:11:610	diFirestat Value: OFF
+2018-04-27 08:52:11:612	diHighPressure1 Value: OFF
+2018-04-27 08:52:11:637	aiReturnAirTemperature Value: 70.5
+2018-04-27 08:52:11:638	diLowPressure1 Value: OFF
+2018-04-27 08:52:11:640	diExhaustFan1Overload Value: ON
+2018-04-27 08:52:11:641	diPool1Waterflow Value: OFF
+2018-04-27 08:52:11:660	aiSupplyAirTemperature Value: 70.5
+2018-04-27 08:52:11:676	aiReturnAirTemperature Value: 70.7
+2018-04-27 08:52:11:694	aiOutdoorAirTemperature Value: 69.0
+2018-04-27 08:52:11:730	doMorePool1Heat Value: ON
+2018-04-27 08:52:11:770	aiExhaustAirTemperature Value: 69.4
+2018-04-27 08:52:11:795	aiReturnAirTemperature Value: 70.5
+2018-04-27 08:52:11:817	aiCompressor1SuctionTemperature Value: 75.9
+2018-04-27 08:52:11:843	aiPoolInTemperature Value: 70.5
+2018-04-27 08:52:11:863	aiPoolOutTemperature Value: 69.9
+2018-04-27 08:52:11:882	aiCompressor1DischargeTemperature Value: 70.8
+2018-04-27 08:52:11:902	aiCompressor1EvaporationTemperature Value: 71.2
+2018-04-27 08:52:12:025	aiCompressor1EvaporationTemperature Value: 71.0
+2018-04-27 08:52:12:079	aiReturnAirTemperature Value: 70.7
+2018-04-27 08:52:12:118	aiCompressor1EvaporationTemperature Value: 71.2
+2018-04-27 08:52:12:485	aiCompressor1EvaporationTemperature Value: 71.0
+2018-04-27 08:52:13:573	Event: Panel Unlinked, Panel Name: BLC1
+2018-04-27 08:52:13:583	Event: Panel Unlinked, Panel Name: AHP
+Destroying objects!!!
+Event Derived evSchemaAvailable destroyed
+Event Base evSchemaAvailable destroyed
+Event Derived evSchemaLost destroyed
+Event Base evSchemaLost destroyed
+Event Derived evPanelLinked destroyed
+Event Base evPanelLinked destroyed
+Event Derived evPanelUnlinked destroyed
+Event Base evPanelUnlinked destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Derived evStartUpTimer destroyed
+Event Base evStartUpTimer destroyed
+Event Derived evStartDelayTimer destroyed
+Event Base evStartDelayTimer destroyed
+Event Derived evStabilizeTimer destroyed
+Event Base evStabilizeTimer destroyed
+Event Derived evAlarmStopTimer destroyed
+Event Base evAlarmStopTimer destroyed
+Event Derived evAdjustSpeedTimer destroyed
+Event Base evAdjustSpeedTimer destroyed
+Event Derived evChangeMode destroyed
+Event Base evChangeMode destroyed
+Event Derived evBlowerEnabledDI destroyed
+Event Base evBlowerEnabledDI destroyed
+Event Derived evBlowerEnabledPar destroyed
+Event Base evBlowerEnabledPar destroyed
+Event Derived evBlowerAlarm destroyed
+Event Base evBlowerAlarm destroyed
+Event Derived evBlowerSpeedChanged destroyed
+Event Base evBlowerSpeedChanged destroyed
+Event Derived evBlowerSecondarySpeedChanged destroyed
+Event Base evBlowerSecondarySpeedChanged destroyed
+Event Derived evBlowerSpeedOverride destroyed
+Event Base evBlowerSpeedOverride destroyed
+Event Derived evBlowerAdjustSpeedChanged destroyed
+Event Base evBlowerAdjustSpeedChanged destroyed
+Event Derived evCommissioned destroyed
+Event Base evCommissioned destroyed
+Event Derived evBlowerState destroyed
+Event Base evBlowerState destroyed
+Event Derived evOccupiedDI destroyed
+Event Base evOccupiedDI destroyed
+Event Derived evOccupiedParam destroyed
+Event Base evOccupiedParam destroyed
+Event Derived evSpectatorsDI destroyed
+Event Base evSpectatorsDI destroyed
+Event Derived evSpectatorsParam destroyed
+Event Base evSpectatorsParam destroyed
+Event Derived evSpectatorsTimer destroyed
+Event Base evSpectatorsTimer destroyed
+Event Derived evAlarmTimer destroyed
+Event Base evAlarmTimer destroyed
+Event Derived evAlarmCleared destroyed
+Event Base evAlarmCleared destroyed
+Event Derived evAlarmExhaust1Overload destroyed
+Event Base evAlarmExhaust1Overload destroyed
+Event Derived evAlarmFreezestat destroyed
+Event Base evAlarmFreezestat destroyed
+Event Derived evLevelChange destroyed
+Event Base evLevelChange destroyed
+Event Derived evExh1AlarmChange destroyed
+Event Base evExh1AlarmChange destroyed
+Event Derived evExhaust1State destroyed
+Event Base evExhaust1State destroyed
+Event Derived evSpectatorModeElapsedTimer destroyed
+Event Base evSpectatorModeElapsedTimer destroyed
+Event Derived evExhaust1AdjustSpeedTimer destroyed
+Event Base evExhaust1AdjustSpeedTimer destroyed
+Event Derived evAirFlowCalibrationTimer destroyed
+Event Base evAirFlowCalibrationTimer destroyed
+Event Derived evExh1PressureReliefTimer destroyed
+Event Base evExh1PressureReliefTimer destroyed
+Event Derived evPurgeDI destroyed
+Event Base evPurgeDI destroyed
+Event Derived evPurgeParam destroyed
+Event Base evPurgeParam destroyed
+Event Derived evEconomizerDemand destroyed
+Event Base evEconomizerDemand destroyed
+Event Derived evStabilizeEconomizerTimer destroyed
+Event Base evStabilizeEconomizerTimer destroyed
+Event Derived evPurgeTimer destroyed
+Event Base evPurgeTimer destroyed
+Event Derived evAlarmExhaust2Overload destroyed
+Event Base evAlarmExhaust2Overload destroyed
+Event Derived evAlarmExhaust2Timer destroyed
+Event Base evAlarmExhaust2Timer destroyed
+Event Derived evAlarmPurge destroyed
+Event Base evAlarmPurge destroyed
+Event Derived evExhaust2State destroyed
+Event Base evExhaust2State destroyed
+Event Derived evExhaust2PurgeState destroyed
+Event Base evExhaust2PurgeState destroyed
+Event Derived evExhaust2AlarmState destroyed
+Event Base evExhaust2AlarmState destroyed
+Event Derived evCompressorsDI destroyed
+Event Base evCompressorsDI destroyed
+Event Derived evCompressorMainEnable destroyed
+Event Base evCompressorMainEnable destroyed
+Event Derived evCompressorDemand destroyed
+Event Base evCompressorDemand destroyed
+Event Derived evCompressorDemandRemoved destroyed
+Event Base evCompressorDemandRemoved destroyed
+Event Derived evACControl destroyed
+Event Base evACControl destroyed
+Event Derived evAlarmHighPressure1 destroyed
+Event Base evAlarmHighPressure1 destroyed
+Event Derived evAlarmLowPressure1 destroyed
+Event Base evAlarmLowPressure1 destroyed
+Event Derived evAlarmOilFault1 destroyed
+Event Base evAlarmOilFault1 destroyed
+Event Derived evAlarmHighDischarge1 destroyed
+Event Base evAlarmHighDischarge1 destroyed
+Event Derived evAlarmHighSuction1 destroyed
+Event Base evAlarmHighSuction1 destroyed
+Event Derived evAlarmSuperheat1 destroyed
+Event Base evAlarmSuperheat1 destroyed
+Event Derived evAlarmCompressorFault1 destroyed
+Event Base evAlarmCompressorFault1 destroyed
+Event Derived evCompressorCircuit1Enable destroyed
+Event Base evCompressorCircuit1Enable destroyed
+Event Derived evForced1 destroyed
+Event Base evForced1 destroyed
+Event Derived evAntiblockTimer1 destroyed
+Event Base evAntiblockTimer1 destroyed
+Event Derived evHighPressureAI1 destroyed
+Event Base evHighPressureAI1 destroyed
+Event Derived evLowPressureAI1 destroyed
+Event Base evLowPressureAI1 destroyed
+Event Derived evHighPressureDI1 destroyed
+Event Base evHighPressureDI1 destroyed
+Event Derived evLowPressureDI1 destroyed
+Event Base evLowPressureDI1 destroyed
+Event Derived evCompressorStabilizeTimer1 destroyed
+Event Base evCompressorStabilizeTimer1 destroyed
+Event Derived evMinRunTimer1 destroyed
+Event Base evMinRunTimer1 destroyed
+Event Derived evCompressorAlarmStopTimer1 destroyed
+Event Base evCompressorAlarmStopTimer1 destroyed
+Event Derived evMinStopTimer1 destroyed
+Event Base evMinStopTimer1 destroyed
+Event Derived evCompressorAlarmCleared1 destroyed
+Event Base evCompressorAlarmCleared1 destroyed
+Event Derived evHighPressureStartDelayTimer1 destroyed
+Event Base evHighPressureStartDelayTimer1 destroyed
+Event Derived evOilFaultStartTimer1 destroyed
+Event Base evOilFaultStartTimer1 destroyed
+Event Derived evHighPressurePoolFaultTimer1 destroyed
+Event Base evHighPressurePoolFaultTimer1 destroyed
+Event Derived evCompressorDO1 destroyed
+Event Base evCompressorDO1 destroyed
+Event Derived evHighPressureOACUMax destroyed
+Event Base evHighPressureOACUMax destroyed
+Event Derived evHighPressureOACUMin destroyed
+Event Base evHighPressureOACUMin destroyed
+Event Derived evCompressorState1 destroyed
+Event Base evCompressorState1 destroyed
+Event Derived evCompressorState2 destroyed
+Event Base evCompressorState2 destroyed
+Event Derived evHighPressureReliefTimer1 destroyed
+Event Base evHighPressureReliefTimer1 destroyed
+Event Derived evDischargeTemp1 destroyed
+Event Base evDischargeTemp1 destroyed
+Event Derived evOilFaultDI1 destroyed
+Event Base evOilFaultDI1 destroyed
+Event Derived evCompressorStartUpTimer1 destroyed
+Event Base evCompressorStartUpTimer1 destroyed
+Event Derived evAlarmTripped destroyed
+Event Base evAlarmTripped destroyed
+Event Derived evAlarmMajor destroyed
+Event Base evAlarmMajor destroyed
+Event Derived evReheatValveAdjustment destroyed
+Event Base evReheatValveAdjustment destroyed
+Event Derived evValveTransit destroyed
+Event Base evValveTransit destroyed
+Event Derived evModeTransitTimer destroyed
+Event Base evModeTransitTimer destroyed
+Event Derived evReheatAdjustmentTimer destroyed
+Event Base evReheatAdjustmentTimer destroyed
+Event Derived evReheatCalibrationTimer destroyed
+Event Base evReheatCalibrationTimer destroyed
+Event Derived evDesignChange destroyed
+Event Base evDesignChange destroyed
+Event Derived evPumpFaultDelayTimer destroyed
+Event Base evPumpFaultDelayTimer destroyed
+Event Derived evPumpFaultDI destroyed
+Event Base evPumpFaultDI destroyed
+Event Derived evOacuPendingOffTimer destroyed
+Event Base evOacuPendingOffTimer destroyed
+Event Derived evAlarmOacuOverload destroyed
+Event Base evAlarmOacuOverload destroyed
+Event Derived evACDO1 destroyed
+Event Base evACDO1 destroyed
+Event Derived evMoreReheatDO destroyed
+Event Base evMoreReheatDO destroyed
+Event Derived evBypassDamperTurnTimer destroyed
+Event Base evBypassDamperTurnTimer destroyed
+Event Derived evBypassDamperStabilizationTimer destroyed
+Event Base evBypassDamperStabilizationTimer destroyed
+Event Derived evReheatDemand destroyed
+Event Base evReheatDemand destroyed
+Event Derived evPoolHeatValveAdjustment destroyed
+Event Base evPoolHeatValveAdjustment destroyed
+Event Derived evPoolHeatAdjustmentTimer destroyed
+Event Base evPoolHeatAdjustmentTimer destroyed
+Event Derived evPoolHeatCalibrationTimer destroyed
+Event Base evPoolHeatCalibrationTimer destroyed
+~IdleCompressorReheat
+~TransitCompressorReheat
+~AdjustingCompressorReheat
+~CalibrateCompressorReheat
+~StoppingCompressorOACU
+~AlarmCompressorOACU
+Event Derived evReturnAirRH destroyed
+Event Base evReturnAirRH destroyed
+Event Derived evEnableParDehum destroyed
+Event Base evEnableParDehum destroyed
+~DisabledSupplyAirControl
+~IdleSupplyAirControl
+~HoldSupplyAirControl
+~HoldCoolSupplyAirControl
+~CoolingSupplyAirControl
+~PressureReliefSupplyAirControl
+~HoldHeatSupplyAirControl
+~HeatingSupplyAirControl
+Event Derived evSupplyAirTemp destroyed
+Event Base evSupplyAirTemp destroyed
+Event Derived evSupplyAirSetpoint destroyed
+Event Base evSupplyAirSetpoint destroyed
+Event Derived evSupplyAirEnable destroyed
+Event Base evSupplyAirEnable destroyed
+~DisabledRoomTempControl
+~IdleRoomTempControl
+~HoldRoomTempControl
+~CoolRoomTempControl
+~HoldRoomTempControl
+~HeatRoomTempControl
+Event Derived evReturnAirTemp destroyed
+Event Base evReturnAirTemp destroyed
+Event Derived evEnableRoomTemp destroyed
+Event Base evEnableRoomTemp destroyed
+Event Derived evACOverrideDI destroyed
+Event Base evACOverrideDI destroyed
+Event Derived evHeatingOverrideDI destroyed
+Event Base evHeatingOverrideDI destroyed
+Event Derived evRtcAuxiliaryTimer destroyed
+Event Base evRtcAuxiliaryTimer destroyed
+Event Derived evPool1Coax destroyed
+Event Base evPool1Coax destroyed
+Event Derived evPool1Aux destroyed
+Event Base evPool1Aux destroyed
+Event Derived evPool1InTempAI destroyed
+Event Base evPool1InTempAI destroyed
+Event Derived evAlarmNoFlow1 destroyed
+Event Base evAlarmNoFlow1 destroyed
+Event Derived evCompressorPoolFaultTimer destroyed
+Event Base evCompressorPoolFaultTimer destroyed
+Event Derived evPoolAlarmStopTimer destroyed
+Event Base evPoolAlarmStopTimer destroyed
+Event Derived evAlarmPoolWaterCleared destroyed
+Event Base evAlarmPoolWaterCleared destroyed
+Event Derived evDegreeMinPoolWater destroyed
+Event Base evDegreeMinPoolWater destroyed
+Event Derived evPressureReliefTimer destroyed
+Event Base evPressureReliefTimer destroyed
+Deleting: alarmBlowerOverload
+Deleting: alarmFireStat
+Deleting: alarmVoltageMonitor
+Deleting: alarmFreezestat
+Deleting: alarmExhaust1Overload
+Deleting: alarmPurge
+Deleting: alarmExhaust2Overload
+Deleting: alarmNoAirflow
+Deleting: alarmOACU1Overload
+Deleting: alarmPumpFault
+Deleting: alarmComp1Fault
+Deleting: alarmComp1LowSH
+Deleting: alarmComp1HighDis
+Deleting: alarmComp1Oil
+Deleting: alarmComp1LP
+Deleting: alarmComp1HP
+Deleting: alarmPool1HighTemp
+Deleting: alarmPool1FlowHigh
+Deleting: alarmPool1NoWaterflow
+Exiting infinite loop...
+
+Exiting ioWrx (C): Terminating without error.
+==12916== Conditional jump or move depends on uninitialised value(s)
+==12916==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==12916==    by 0x5051398: FCGX_Free (fcgiapp.c:2028)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+==12916== Conditional jump or move depends on uninitialised value(s)
+==12916==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==12916==    by 0x50513A1: FCGX_Free (fcgiapp.c:2029)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+==12916== Conditional jump or move depends on uninitialised value(s)
+==12916==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==12916==    by 0x50513AA: FCGX_Free (fcgiapp.c:2030)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+==12916== Conditional jump or move depends on uninitialised value(s)
+==12916==    at 0x504F02A: FreeParams (fcgiapp.c:1050)
+==12916==    by 0x50513B3: FCGX_Free (fcgiapp.c:2031)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+==12916== Conditional jump or move depends on uninitialised value(s)
+==12916==    at 0x5052357: OS_Close (os_unix.c:724)
+==12916==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+==12916== Syscall param shutdown(s) contains uninitialised byte(s)
+==12916==    at 0x6135577: shutdown (syscall-template.S:84)
+==12916==    by 0x5052436: OS_Close (os_unix.c:756)
+==12916==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+==12916== Syscall param close(fd) contains uninitialised byte(s)
+==12916==    at 0x61248F0: __close_nocancel (syscall-template.S:84)
+==12916==    by 0x50524D9: OS_Close (os_unix.c:775)
+==12916==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==12916==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==12916==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==12916==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==12916==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==12916==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==12916==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==12916==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==12916==    by 0x5025004: free_on_exit (global.h:119)
+==12916==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==12916==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==12916==    by 0x487357: main (command_center.cpp:55)
+==12916== 
+Event Base  destroyed
+==12916== 
+==12916== HEAP SUMMARY:
+==12916==     in use at exit: 73,492 bytes in 21 blocks
+==12916==   total heap usage: 629,082 allocs, 629,061 frees, 38,452,715 bytes allocated
+==12916== 
+==12916== 17 bytes in 1 blocks are still reachable in loss record 1 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==12916==    by 0x465C69: EvNoAirFlowAlarm::EvNoAirFlowAlarm(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:893)
+==12916==    by 0x48586C: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:471)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916== 
+==12916== 17 bytes in 1 blocks are still reachable in loss record 2 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==12916==    by 0x466249: EvState2OnChange::EvState2OnChange(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:957)
+==12916==    by 0x485A15: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:475)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916== 
+==12916== 17 bytes in 1 blocks are still reachable in loss record 3 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==12916==    by 0x4663C1: EvAirHeaterState::EvAirHeaterState(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:973)
+==12916==    by 0x485A7A: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:476)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916== 
+==12916== 19 bytes in 1 blocks are indirectly lost in loss record 4 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==12916==    by 0x484123: AirHeaterControl::OnAirHeaterControl::OnAirHeaterControl(AirHeaterControl&, AirHeaterControl::EnabledAirHeaterControl&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:147)
+==12916==    by 0x4845D5: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:212)
+==12916==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916== 
+==12916== 20 bytes in 1 blocks are still reachable in loss record 5 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==12916==    by 0x4660D1: EvHeatingTypeChange::EvHeatingTypeChange(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:941)
+==12916==    by 0x4859B0: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:474)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916== 
+==12916== 20 bytes in 1 blocks are indirectly lost in loss record 6 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==12916==    by 0x483E8F: AirHeaterControl::OffAirHeaterControl::OffAirHeaterControl(AirHeaterControl&, AirHeaterControl::EnabledAirHeaterControl&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:119)
+==12916==    by 0x48456D: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:211)
+==12916==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916== 
+==12916== 24 bytes in 1 blocks are indirectly lost in loss record 7 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==12916==    by 0x47593F: StateMachine::StateMachine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:99)
+==12916==    by 0x4844F2: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:209)
+==12916==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916== 
+==12916== 25 bytes in 1 blocks are indirectly lost in loss record 8 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==12916==    by 0x483B83: AirHeaterControl::DisabledAirHeaterControl::DisabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:80)
+==12916==    by 0x485777: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:468)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916== 
+==12916== 29 bytes in 1 blocks are indirectly lost in loss record 9 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==12916==    by 0x47593F: StateMachine::StateMachine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:99)
+==12916==    by 0x4856C5: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:466)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916== 
+==12916== 40 bytes in 1 blocks are still reachable in loss record 10 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x48585E: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:471)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 40 bytes in 1 blocks are still reachable in loss record 11 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x4858CC: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:472)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 40 bytes in 1 blocks are still reachable in loss record 12 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x48593A: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:473)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 40 bytes in 1 blocks are still reachable in loss record 13 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x4859A2: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:474)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 40 bytes in 1 blocks are still reachable in loss record 14 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x485A07: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:475)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 40 bytes in 1 blocks are still reachable in loss record 15 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x485A6C: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:476)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 56 bytes in 1 blocks are indirectly lost in loss record 16 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x485758: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:468)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 56 bytes in 1 blocks are indirectly lost in loss record 17 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x484554: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:211)
+==12916==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916== 
+==12916== 56 bytes in 1 blocks are indirectly lost in loss record 18 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x4845BC: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:212)
+==12916==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916== 
+==12916== 96 bytes in 1 blocks are indirectly lost in loss record 19 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x4857DB: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==12916==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916== 
+==12916== 477 (96 direct, 381 indirect) bytes in 1 blocks are definitely lost in loss record 20 of 21
+==12916==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x483AEA: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==12916==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==12916==    by 0x475822: State::entry() (state.cpp:36)
+==12916==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==12916==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==12916==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==12916==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==12916==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==12916==    by 0x41EC0E: void iowrx_api::ioWrxHandlerCppDelegate<MainStateMachine, &MainStateMachine::dispatchEvent>(void*) (ioWrx.hpp:99)
+==12916== 
+==12916== 72,704 bytes in 1 blocks are still reachable in loss record 21 of 21
+==12916==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12916==    by 0x5815EFF: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==12916==    by 0x40106B9: call_init.part.0 (dl-init.c:72)
+==12916==    by 0x40107CA: call_init (dl-init.c:30)
+==12916==    by 0x40107CA: _dl_init (dl-init.c:120)
+==12916==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==12916== 
+==12916== LEAK SUMMARY:
+==12916==    definitely lost: 96 bytes in 1 blocks
+==12916==    indirectly lost: 381 bytes in 9 blocks
+==12916==      possibly lost: 0 bytes in 0 blocks
+==12916==    still reachable: 73,015 bytes in 11 blocks
+==12916==         suppressed: 0 bytes in 0 blocks
+==12916== 
+==12916== For counts of detected and suppressed errors, rerun with: -v
+==12916== Use --track-origins=yes to see where uninitialised values come from
+==12916== ERROR SUMMARY: 8 errors from 8 contexts (suppressed: 0 from 0)
+==15608== Memcheck, a memory error detector
+==15608== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==15608== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==15608== Command: /home/frank/workspace_oxygen2/CommandCenter_Intel_8.4/CC_Intel/CommandCenter_Intel_8.4
+==15608== 
+2018-04-27 10:12:16:355	Starting Program ...
+2018-04-27 10:12:19:852	Waiting for the schema
+2018-04-27 10:12:19:892	Schema found
+2018-04-27 10:12:19:906	Waiting for panels to link 
+2018-04-27 10:12:35:021	Panel BLC1 linked
+2018-04-27 10:12:42:222	Panel AHP linked
+2018-04-27 10:12:42:229	All Panels linked 
+psi = 268 tf = -200
+psi = 278 tf = -190
+psi = 287 tf = -180
+psi = 297 tf = -170
+psi = 307 tf = -160
+psi = 317 tf = -150
+psi = 327 tf = -140
+psi = 337 tf = -130
+psi = 348 tf = -120
+psi = 359 tf = -110
+psi = 370 tf = -100
+psi = 381 tf = -90
+psi = 392 tf = -80
+psi = 404 tf = -70
+psi = 415 tf = -60
+psi = 427 tf = -50
+psi = 439 tf = -40
+psi = 451 tf = -30
+psi = 464 tf = -20
+psi = 477 tf = -10
+psi = 489 tf = 0
+psi = 502 tf = 10
+psi = 516 tf = 20
+psi = 529 tf = 30
+psi = 543 tf = 40
+psi = 557 tf = 50
+psi = 571 tf = 60
+psi = 585 tf = 70
+psi = 600 tf = 80
+psi = 614 tf = 90
+psi = 629 tf = 100
+psi = 645 tf = 110
+psi = 660 tf = 120
+psi = 676 tf = 130
+psi = 692 tf = 140
+psi = 708 tf = 150
+psi = 724 tf = 160
+psi = 741 tf = 170
+psi = 758 tf = 180
+psi = 775 tf = 190
+psi = 792 tf = 200
+psi = 810 tf = 210
+psi = 828 tf = 220
+psi = 846 tf = 230
+psi = 864 tf = 240
+psi = 883 tf = 250
+psi = 902 tf = 260
+psi = 921 tf = 270
+psi = 940 tf = 280
+psi = 960 tf = 290
+psi = 980 tf = 300
+psi = 1000 tf = 310
+psi = 1020 tf = 320
+psi = 1041 tf = 330
+psi = 1062 tf = 340
+psi = 1084 tf = 350
+psi = 1105 tf = 360
+psi = 1127 tf = 370
+psi = 1149 tf = 380
+psi = 1172 tf = 390
+psi = 1194 tf = 400
+psi = 1218 tf = 410
+psi = 1241 tf = 420
+psi = 1265 tf = 430
+psi = 1289 tf = 440
+psi = 1313 tf = 450
+psi = 1338 tf = 460
+psi = 1362 tf = 470
+psi = 1388 tf = 480
+psi = 1413 tf = 490
+psi = 1439 tf = 500
+psi = 1465 tf = 510
+psi = 1492 tf = 520
+psi = 1519 tf = 530
+psi = 1546 tf = 540
+psi = 1573 tf = 550
+psi = 1601 tf = 560
+psi = 1629 tf = 570
+psi = 1658 tf = 580
+psi = 1687 tf = 590
+psi = 1716 tf = 600
+psi = 1746 tf = 610
+psi = 1776 tf = 620
+psi = 1806 tf = 630
+psi = 1837 tf = 640
+psi = 1868 tf = 650
+psi = 1899 tf = 660
+psi = 1931 tf = 670
+psi = 1963 tf = 680
+psi = 1996 tf = 690
+psi = 2028 tf = 700
+psi = 2062 tf = 710
+psi = 2095 tf = 720
+psi = 2129 tf = 730
+psi = 2164 tf = 740
+psi = 2199 tf = 750
+psi = 2234 tf = 760
+psi = 2269 tf = 770
+psi = 2305 tf = 780
+psi = 2342 tf = 790
+psi = 2379 tf = 800
+psi = 2416 tf = 810
+psi = 2454 tf = 820
+psi = 2492 tf = 830
+psi = 2530 tf = 840
+psi = 2569 tf = 850
+psi = 2608 tf = 860
+psi = 2648 tf = 870
+psi = 2688 tf = 880
+psi = 2729 tf = 890
+psi = 2770 tf = 900
+psi = 2811 tf = 910
+psi = 2853 tf = 920
+psi = 2896 tf = 930
+psi = 2939 tf = 940
+psi = 2982 tf = 950
+psi = 3026 tf = 960
+psi = 3070 tf = 970
+psi = 3115 tf = 980
+psi = 3160 tf = 990
+psi = 3205 tf = 1000
+2018-04-27 10:12:42:513	alarmVoltageMonitor AlarmStandby
+2018-04-27 10:12:42:521	alarmFireStat AlarmStandby
+2018-04-27 10:12:42:524	alarmBlowerOverload AlarmStandby
+2018-04-27 10:12:42:545	alarmExhaust1Overload AlarmStandby
+2018-04-27 10:12:42:551	alarmFreezestat AlarmStandby
+2018-04-27 10:12:42:558	alarmExhaust2Overload AlarmStandby
+2018-04-27 10:12:42:561	alarmPurge AlarmStandby
+2018-04-27 10:12:42:582	alarmNoAirflow AlarmStandby
+2018-04-27 10:12:42:691	alarmComp1HP AlarmStandby
+2018-04-27 10:12:42:695	alarmComp1LP AlarmStandby
+2018-04-27 10:12:42:698	alarmComp1Oil AlarmStandby
+2018-04-27 10:12:42:701	alarmComp1HighDis AlarmStandby
+2018-04-27 10:12:42:705	alarmComp1LowSH AlarmStandby
+2018-04-27 10:12:42:708	alarmComp1Fault AlarmStandby
+2018-04-27 10:12:42:711	alarmPumpFault AlarmStandby
+2018-04-27 10:12:42:715	alarmOACU1Overload AlarmStandby
+2018-04-27 10:12:42:753	alarmPool1NoWaterflow AlarmStandby
+2018-04-27 10:12:42:758	alarmPool1FlowHigh AlarmStandby
+2018-04-27 10:12:42:767	alarmPool1HighTemp AlarmStandby
+2018-04-27 10:12:42:769	Creating State Machines...
+2018-04-27 10:12:44:572	State: PowerUpBlower
+Choose between Normal or Service Mode
+2018-04-27 10:12:44:638	State: DisabledExhaust1
+2018-04-27 10:12:44:721	State: DisabledExhaust2
+2018-04-27 10:12:44:879	State: DisabledCompressorCircuit1
+2018-04-27 10:12:44:906	State: IdleCompressorReheat
+2018-04-27 10:12:44:921	State: IdleCompressorBypassCompressorBypass
+2018-04-27 10:12:44:939	State: IdleCompressorOACU
+2018-04-27 10:12:44:954	State: IdleCompressorPoolCoax
+2018-04-27 10:12:44:994	State: DisabledHumidityControl
+2018-04-27 10:12:45:035	State: DisabledAirHeaterControl
+2018-04-27 10:12:45:072	State: DisabledSupplyAirControl
+2018-04-27 10:12:45:107	State: DisabledRoomTempControl
+2018-04-27 10:12:45:143	State: DisablePoolWater
+2018-04-27 10:12:45:192	aiSupplyAirTemperature Value: 69.4
+2018-04-27 10:12:45:245	aiReturnAirTemperature Value: 69.4
+2018-04-27 10:12:45:269	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:45:272	aiReturnAirHumidity Value: 41.2
+2018-04-27 10:12:45:295	aiCompressor1SuctionTemperature Value: 74.8
+2018-04-27 10:12:45:313	aiPoolInTemperature Value: 69.2
+2018-04-27 10:12:45:335	State: BlowerActive Event: evBlowerEnabledPar
+2018-04-27 10:12:45:482	State: BlowerActive Event: evCompressorState1
+2018-04-27 10:12:45:489	State: IdleCompressorReheat Event: evReheatValveAdjustment
+2018-04-27 10:12:45:492	State: AdjustingCompressorReheat
+Update Reheat: 90
+2018-04-27 10:12:45:529	doMorePool1Heat Value: OFF
+2018-04-27 10:12:45:607	aiCompressor1EvaporationTemperature Value: 69.8
+2018-04-27 10:12:45:713	aiReturnAirTemperature Value: 69.6
+2018-04-27 10:12:45:718	diVoltageMonitor Value: OFF
+2018-04-27 10:12:45:722	diBlowerOverload Value: OFF
+2018-04-27 10:12:45:745	aiReturnAirTemperature Value: 69.4
+2018-04-27 10:12:45:767	aiCompressor1EvaporationTemperature Value: 69.6
+2018-04-27 10:12:45:768	diFirestat Value: OFF
+2018-04-27 10:12:45:769	diHighPressure1 Value: OFF
+2018-04-27 10:12:45:772	diLowPressure1 Value: OFF
+2018-04-27 10:12:45:793	aiSupplyAirTemperature Value: 69.2
+2018-04-27 10:12:45:796	diExhaustFan1Overload Value: ON
+2018-04-27 10:12:45:798	diPool1Waterflow Value: OFF
+2018-04-27 10:12:45:815	aiCompressor1EvaporationTemperature Value: 69.8
+2018-04-27 10:12:45:833	aiSupplyAirTemperature Value: 69.4
+2018-04-27 10:12:45:834	aiReturnAirHumidity Value: 41.3
+2018-04-27 10:12:45:855	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:45:929	aiOutdoorAirTemperature Value: 68.1
+2018-04-27 10:12:45:969	aiCompressor1DischargeTemperature Value: 69.6
+2018-04-27 10:12:45:998	aiCompressor1EvaporationTemperature Value: 69.8
+2018-04-27 10:12:46:053	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:46:077	aiReturnAirTemperature Value: 69.4
+2018-04-27 10:12:46:102	aiCompressor1SuctionTemperature Value: 74.8
+2018-04-27 10:12:46:126	aiPoolInTemperature Value: 69.2
+2018-04-27 10:12:46:161	aiPoolOutTemperature Value: 68.7
+2018-04-27 10:12:46:166	aiReturnAirHumidity Value: 41.2
+2018-04-27 10:12:46:293	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:46:396	aiReturnAirTemperature Value: 69.6
+2018-04-27 10:12:46:444	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:46:480	aiReturnAirTemperature Value: 69.4
+2018-04-27 10:12:46:691	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:47:191	aiReturnAirTemperature Value: 69.6
+2018-04-27 10:12:47:700	aiReturnAirTemperature Value: 69.4
+2018-04-27 10:12:48:196	aiReturnAirHumidity Value: 41.3
+2018-04-27 10:12:48:755	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:48:777	aiReturnAirTemperature Value: 69.6
+2018-04-27 10:12:49:253	aiExhaustAirTemperature Value: 68.3
+2018-04-27 10:12:49:283	aiReturnAirTemperature Value: 69.4
+2018-04-27 10:12:50:856	Event: Panel Unlinked, Panel Name: BLC1
+2018-04-27 10:12:50:859	Event: Panel Unlinked, Panel Name: AHP
+Destroying objects!!!
+Event Derived evSchemaAvailable destroyed
+Event Base evSchemaAvailable destroyed
+Event Derived evSchemaLost destroyed
+Event Base evSchemaLost destroyed
+Event Derived evPanelLinked destroyed
+Event Base evPanelLinked destroyed
+Event Derived evPanelUnlinked destroyed
+Event Base evPanelUnlinked destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Derived evStartUpTimer destroyed
+Event Base evStartUpTimer destroyed
+Event Derived evStartDelayTimer destroyed
+Event Base evStartDelayTimer destroyed
+Event Derived evStabilizeTimer destroyed
+Event Base evStabilizeTimer destroyed
+Event Derived evAlarmStopTimer destroyed
+Event Base evAlarmStopTimer destroyed
+Event Derived evAdjustSpeedTimer destroyed
+Event Base evAdjustSpeedTimer destroyed
+Event Derived evChangeMode destroyed
+Event Base evChangeMode destroyed
+Event Derived evBlowerEnabledDI destroyed
+Event Base evBlowerEnabledDI destroyed
+Event Derived evBlowerEnabledPar destroyed
+Event Base evBlowerEnabledPar destroyed
+Event Derived evBlowerAlarm destroyed
+Event Base evBlowerAlarm destroyed
+Event Derived evBlowerSpeedChanged destroyed
+Event Base evBlowerSpeedChanged destroyed
+Event Derived evBlowerSecondarySpeedChanged destroyed
+Event Base evBlowerSecondarySpeedChanged destroyed
+Event Derived evBlowerSpeedOverride destroyed
+Event Base evBlowerSpeedOverride destroyed
+Event Derived evBlowerAdjustSpeedChanged destroyed
+Event Base evBlowerAdjustSpeedChanged destroyed
+Event Derived evCommissioned destroyed
+Event Base evCommissioned destroyed
+Event Derived evBlowerState destroyed
+Event Base evBlowerState destroyed
+Event Derived evOccupiedDI destroyed
+Event Base evOccupiedDI destroyed
+Event Derived evOccupiedParam destroyed
+Event Base evOccupiedParam destroyed
+Event Derived evSpectatorsDI destroyed
+Event Base evSpectatorsDI destroyed
+Event Derived evSpectatorsParam destroyed
+Event Base evSpectatorsParam destroyed
+Event Derived evSpectatorsTimer destroyed
+Event Base evSpectatorsTimer destroyed
+Event Derived evAlarmTimer destroyed
+Event Base evAlarmTimer destroyed
+Event Derived evAlarmCleared destroyed
+Event Base evAlarmCleared destroyed
+Event Derived evAlarmExhaust1Overload destroyed
+Event Base evAlarmExhaust1Overload destroyed
+Event Derived evAlarmFreezestat destroyed
+Event Base evAlarmFreezestat destroyed
+Event Derived evLevelChange destroyed
+Event Base evLevelChange destroyed
+Event Derived evExh1AlarmChange destroyed
+Event Base evExh1AlarmChange destroyed
+Event Derived evExhaust1State destroyed
+Event Base evExhaust1State destroyed
+Event Derived evSpectatorModeElapsedTimer destroyed
+Event Base evSpectatorModeElapsedTimer destroyed
+Event Derived evExhaust1AdjustSpeedTimer destroyed
+Event Base evExhaust1AdjustSpeedTimer destroyed
+Event Derived evAirFlowCalibrationTimer destroyed
+Event Base evAirFlowCalibrationTimer destroyed
+Event Derived evExh1PressureReliefTimer destroyed
+Event Base evExh1PressureReliefTimer destroyed
+Event Derived evPurgeDI destroyed
+Event Base evPurgeDI destroyed
+Event Derived evPurgeParam destroyed
+Event Base evPurgeParam destroyed
+Event Derived evEconomizerDemand destroyed
+Event Base evEconomizerDemand destroyed
+Event Derived evStabilizeEconomizerTimer destroyed
+Event Base evStabilizeEconomizerTimer destroyed
+Event Derived evPurgeTimer destroyed
+Event Base evPurgeTimer destroyed
+Event Derived evAlarmExhaust2Overload destroyed
+Event Base evAlarmExhaust2Overload destroyed
+Event Derived evAlarmExhaust2Timer destroyed
+Event Base evAlarmExhaust2Timer destroyed
+Event Derived evAlarmPurge destroyed
+Event Base evAlarmPurge destroyed
+Event Derived evExhaust2State destroyed
+Event Base evExhaust2State destroyed
+Event Derived evExhaust2PurgeState destroyed
+Event Base evExhaust2PurgeState destroyed
+Event Derived evExhaust2AlarmState destroyed
+Event Base evExhaust2AlarmState destroyed
+Event Derived evCompressorsDI destroyed
+Event Base evCompressorsDI destroyed
+Event Derived evCompressorMainEnable destroyed
+Event Base evCompressorMainEnable destroyed
+Event Derived evCompressorDemand destroyed
+Event Base evCompressorDemand destroyed
+Event Derived evCompressorDemandRemoved destroyed
+Event Base evCompressorDemandRemoved destroyed
+Event Derived evACControl destroyed
+Event Base evACControl destroyed
+Event Derived evAlarmHighPressure1 destroyed
+Event Base evAlarmHighPressure1 destroyed
+Event Derived evAlarmLowPressure1 destroyed
+Event Base evAlarmLowPressure1 destroyed
+Event Derived evAlarmOilFault1 destroyed
+Event Base evAlarmOilFault1 destroyed
+Event Derived evAlarmHighDischarge1 destroyed
+Event Base evAlarmHighDischarge1 destroyed
+Event Derived evAlarmHighSuction1 destroyed
+Event Base evAlarmHighSuction1 destroyed
+Event Derived evAlarmSuperheat1 destroyed
+Event Base evAlarmSuperheat1 destroyed
+Event Derived evAlarmCompressorFault1 destroyed
+Event Base evAlarmCompressorFault1 destroyed
+Event Derived evCompressorCircuit1Enable destroyed
+Event Base evCompressorCircuit1Enable destroyed
+Event Derived evForced1 destroyed
+Event Base evForced1 destroyed
+Event Derived evAntiblockTimer1 destroyed
+Event Base evAntiblockTimer1 destroyed
+Event Derived evHighPressureAI1 destroyed
+Event Base evHighPressureAI1 destroyed
+Event Derived evLowPressureAI1 destroyed
+Event Base evLowPressureAI1 destroyed
+Event Derived evHighPressureDI1 destroyed
+Event Base evHighPressureDI1 destroyed
+Event Derived evLowPressureDI1 destroyed
+Event Base evLowPressureDI1 destroyed
+Event Derived evCompressorStabilizeTimer1 destroyed
+Event Base evCompressorStabilizeTimer1 destroyed
+Event Derived evMinRunTimer1 destroyed
+Event Base evMinRunTimer1 destroyed
+Event Derived evCompressorAlarmStopTimer1 destroyed
+Event Base evCompressorAlarmStopTimer1 destroyed
+Event Derived evMinStopTimer1 destroyed
+Event Base evMinStopTimer1 destroyed
+Event Derived evCompressorAlarmCleared1 destroyed
+Event Base evCompressorAlarmCleared1 destroyed
+Event Derived evHighPressureStartDelayTimer1 destroyed
+Event Base evHighPressureStartDelayTimer1 destroyed
+Event Derived evOilFaultStartTimer1 destroyed
+Event Base evOilFaultStartTimer1 destroyed
+Event Derived evHighPressurePoolFaultTimer1 destroyed
+Event Base evHighPressurePoolFaultTimer1 destroyed
+Event Derived evCompressorDO1 destroyed
+Event Base evCompressorDO1 destroyed
+Event Derived evHighPressureOACUMax destroyed
+Event Base evHighPressureOACUMax destroyed
+Event Derived evHighPressureOACUMin destroyed
+Event Base evHighPressureOACUMin destroyed
+Event Derived evCompressorState1 destroyed
+Event Base evCompressorState1 destroyed
+Event Derived evCompressorState2 destroyed
+Event Base evCompressorState2 destroyed
+Event Derived evHighPressureReliefTimer1 destroyed
+Event Base evHighPressureReliefTimer1 destroyed
+Event Derived evDischargeTemp1 destroyed
+Event Base evDischargeTemp1 destroyed
+Event Derived evOilFaultDI1 destroyed
+Event Base evOilFaultDI1 destroyed
+Event Derived evCompressorStartUpTimer1 destroyed
+Event Base evCompressorStartUpTimer1 destroyed
+Event Derived evAlarmTripped destroyed
+Event Base evAlarmTripped destroyed
+Event Derived evAlarmMajor destroyed
+Event Base evAlarmMajor destroyed
+Event Derived evReheatValveAdjustment destroyed
+Event Base evReheatValveAdjustment destroyed
+Event Derived evValveTransit destroyed
+Event Base evValveTransit destroyed
+Event Derived evModeTransitTimer destroyed
+Event Base evModeTransitTimer destroyed
+Event Derived evReheatAdjustmentTimer destroyed
+Event Base evReheatAdjustmentTimer destroyed
+Event Derived evReheatCalibrationTimer destroyed
+Event Base evReheatCalibrationTimer destroyed
+Event Derived evDesignChange destroyed
+Event Base evDesignChange destroyed
+Event Derived evPumpFaultDelayTimer destroyed
+Event Base evPumpFaultDelayTimer destroyed
+Event Derived evPumpFaultDI destroyed
+Event Base evPumpFaultDI destroyed
+Event Derived evOacuPendingOffTimer destroyed
+Event Base evOacuPendingOffTimer destroyed
+Event Derived evAlarmOacuOverload destroyed
+Event Base evAlarmOacuOverload destroyed
+Event Derived evACDO1 destroyed
+Event Base evACDO1 destroyed
+Event Derived evMoreReheatDO destroyed
+Event Base evMoreReheatDO destroyed
+Event Derived evBypassDamperTurnTimer destroyed
+Event Base evBypassDamperTurnTimer destroyed
+Event Derived evBypassDamperStabilizationTimer destroyed
+Event Base evBypassDamperStabilizationTimer destroyed
+Event Derived evReheatDemand destroyed
+Event Base evReheatDemand destroyed
+Event Derived evPoolHeatValveAdjustment destroyed
+Event Base evPoolHeatValveAdjustment destroyed
+Event Derived evPoolHeatAdjustmentTimer destroyed
+Event Base evPoolHeatAdjustmentTimer destroyed
+Event Derived evPoolHeatCalibrationTimer destroyed
+Event Base evPoolHeatCalibrationTimer destroyed
+~IdleCompressorReheat
+~TransitCompressorReheat
+~AdjustingCompressorReheat
+~CalibrateCompressorReheat
+~StoppingCompressorOACU
+~AlarmCompressorOACU
+Event Derived evReturnAirRH destroyed
+Event Base evReturnAirRH destroyed
+Event Derived evEnableParDehum destroyed
+Event Base evEnableParDehum destroyed
+~DisabledSupplyAirControl
+~IdleSupplyAirControl
+~HoldSupplyAirControl
+~HoldCoolSupplyAirControl
+~CoolingSupplyAirControl
+~PressureReliefSupplyAirControl
+~HoldHeatSupplyAirControl
+~HeatingSupplyAirControl
+Event Derived evSupplyAirTemp destroyed
+Event Base evSupplyAirTemp destroyed
+Event Derived evSupplyAirSetpoint destroyed
+Event Base evSupplyAirSetpoint destroyed
+Event Derived evSupplyAirEnable destroyed
+Event Base evSupplyAirEnable destroyed
+~DisabledRoomTempControl
+~IdleRoomTempControl
+~HoldRoomTempControl
+~CoolRoomTempControl
+~HoldRoomTempControl
+~HeatRoomTempControl
+Event Derived evReturnAirTemp destroyed
+Event Base evReturnAirTemp destroyed
+Event Derived evEnableRoomTemp destroyed
+Event Base evEnableRoomTemp destroyed
+Event Derived evACOverrideDI destroyed
+Event Base evACOverrideDI destroyed
+Event Derived evHeatingOverrideDI destroyed
+Event Base evHeatingOverrideDI destroyed
+Event Derived evRtcAuxiliaryTimer destroyed
+Event Base evRtcAuxiliaryTimer destroyed
+Event Derived evPool1Coax destroyed
+Event Base evPool1Coax destroyed
+Event Derived evPool1Aux destroyed
+Event Base evPool1Aux destroyed
+Event Derived evPool1InTempAI destroyed
+Event Base evPool1InTempAI destroyed
+Event Derived evAlarmNoFlow1 destroyed
+Event Base evAlarmNoFlow1 destroyed
+Event Derived evCompressorPoolFaultTimer destroyed
+Event Base evCompressorPoolFaultTimer destroyed
+Event Derived evPoolAlarmStopTimer destroyed
+Event Base evPoolAlarmStopTimer destroyed
+Event Derived evAlarmPoolWaterCleared destroyed
+Event Base evAlarmPoolWaterCleared destroyed
+Event Derived evDegreeMinPoolWater destroyed
+Event Base evDegreeMinPoolWater destroyed
+Event Derived evPressureReliefTimer destroyed
+Event Base evPressureReliefTimer destroyed
+Deleting: alarmBlowerOverload
+Deleting: alarmFireStat
+Deleting: alarmVoltageMonitor
+Deleting: alarmFreezestat
+Deleting: alarmExhaust1Overload
+Deleting: alarmPurge
+Deleting: alarmExhaust2Overload
+Deleting: alarmNoAirflow
+Deleting: alarmOACU1Overload
+Deleting: alarmPumpFault
+Deleting: alarmComp1Fault
+Deleting: alarmComp1LowSH
+Deleting: alarmComp1HighDis
+Deleting: alarmComp1Oil
+Deleting: alarmComp1LP
+Deleting: alarmComp1HP
+Deleting: alarmPool1HighTemp
+Deleting: alarmPool1FlowHigh
+Deleting: alarmPool1NoWaterflow
+Exiting infinite loop...
+
+Exiting ioWrx (C): Terminating without error.
+==15608== Conditional jump or move depends on uninitialised value(s)
+==15608==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==15608==    by 0x5051398: FCGX_Free (fcgiapp.c:2028)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+==15608== Conditional jump or move depends on uninitialised value(s)
+==15608==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==15608==    by 0x50513A1: FCGX_Free (fcgiapp.c:2029)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+==15608== Conditional jump or move depends on uninitialised value(s)
+==15608==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==15608==    by 0x50513AA: FCGX_Free (fcgiapp.c:2030)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+==15608== Conditional jump or move depends on uninitialised value(s)
+==15608==    at 0x504F02A: FreeParams (fcgiapp.c:1050)
+==15608==    by 0x50513B3: FCGX_Free (fcgiapp.c:2031)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+==15608== Conditional jump or move depends on uninitialised value(s)
+==15608==    at 0x5052357: OS_Close (os_unix.c:724)
+==15608==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+==15608== Syscall param shutdown(s) contains uninitialised byte(s)
+==15608==    at 0x6135577: shutdown (syscall-template.S:84)
+==15608==    by 0x5052436: OS_Close (os_unix.c:756)
+==15608==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+==15608== Syscall param close(fd) contains uninitialised byte(s)
+==15608==    at 0x61248F0: __close_nocancel (syscall-template.S:84)
+==15608==    by 0x50524D9: OS_Close (os_unix.c:775)
+==15608==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==15608==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==15608==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==15608==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==15608==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==15608==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==15608==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==15608==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==15608==    by 0x5025004: free_on_exit (global.h:119)
+==15608==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==15608==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==15608==    by 0x487357: main (command_center.cpp:55)
+==15608== 
+Event Base  destroyed
+==15608== 
+==15608== HEAP SUMMARY:
+==15608==     in use at exit: 73,492 bytes in 21 blocks
+==15608==   total heap usage: 604,856 allocs, 604,835 frees, 37,742,960 bytes allocated
+==15608== 
+==15608== 17 bytes in 1 blocks are still reachable in loss record 1 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==15608==    by 0x465C69: EvNoAirFlowAlarm::EvNoAirFlowAlarm(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:893)
+==15608==    by 0x48586C: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:471)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608== 
+==15608== 17 bytes in 1 blocks are still reachable in loss record 2 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==15608==    by 0x466249: EvState2OnChange::EvState2OnChange(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:957)
+==15608==    by 0x485A15: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:475)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608== 
+==15608== 17 bytes in 1 blocks are still reachable in loss record 3 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==15608==    by 0x4663C1: EvAirHeaterState::EvAirHeaterState(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:973)
+==15608==    by 0x485A7A: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:476)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608== 
+==15608== 19 bytes in 1 blocks are indirectly lost in loss record 4 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==15608==    by 0x484123: AirHeaterControl::OnAirHeaterControl::OnAirHeaterControl(AirHeaterControl&, AirHeaterControl::EnabledAirHeaterControl&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:147)
+==15608==    by 0x4845D5: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:212)
+==15608==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608== 
+==15608== 20 bytes in 1 blocks are still reachable in loss record 5 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x46175C: Event::Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:19)
+==15608==    by 0x4660D1: EvHeatingTypeChange::EvHeatingTypeChange(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (event.cpp:941)
+==15608==    by 0x4859B0: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:474)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608== 
+==15608== 20 bytes in 1 blocks are indirectly lost in loss record 6 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==15608==    by 0x483E8F: AirHeaterControl::OffAirHeaterControl::OffAirHeaterControl(AirHeaterControl&, AirHeaterControl::EnabledAirHeaterControl&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:119)
+==15608==    by 0x48456D: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:211)
+==15608==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608== 
+==15608== 24 bytes in 1 blocks are indirectly lost in loss record 7 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==15608==    by 0x47593F: StateMachine::StateMachine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:99)
+==15608==    by 0x4844F2: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:209)
+==15608==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608== 
+==15608== 25 bytes in 1 blocks are indirectly lost in loss record 8 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==15608==    by 0x483B83: AirHeaterControl::DisabledAirHeaterControl::DisabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:80)
+==15608==    by 0x485777: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:468)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608== 
+==15608== 29 bytes in 1 blocks are indirectly lost in loss record 9 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x58AD96C: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x58AD9CE: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x475758: State::State(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:19)
+==15608==    by 0x47593F: StateMachine::StateMachine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (state.cpp:99)
+==15608==    by 0x4856C5: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:466)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608== 
+==15608== 40 bytes in 1 blocks are still reachable in loss record 10 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x48585E: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:471)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 40 bytes in 1 blocks are still reachable in loss record 11 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x4858CC: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:472)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 40 bytes in 1 blocks are still reachable in loss record 12 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x48593A: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:473)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 40 bytes in 1 blocks are still reachable in loss record 13 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x4859A2: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:474)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 40 bytes in 1 blocks are still reachable in loss record 14 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x485A07: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:475)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 40 bytes in 1 blocks are still reachable in loss record 15 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x485A6C: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:476)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 56 bytes in 1 blocks are indirectly lost in loss record 16 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x485758: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:468)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 56 bytes in 1 blocks are indirectly lost in loss record 17 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x484554: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:211)
+==15608==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608== 
+==15608== 56 bytes in 1 blocks are indirectly lost in loss record 18 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x4845BC: AirHeaterControl::EnabledAirHeaterControl::EnabledAirHeaterControl(AirHeaterControl&, AirHeaterControl::AirHeaterControlStateMachine&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (air_heater.cpp:212)
+==15608==    by 0x4857FA: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608== 
+==15608== 96 bytes in 1 blocks are indirectly lost in loss record 19 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x4857DB: AirHeaterControl::AirHeaterControlStateMachine::AirHeaterControlStateMachine(AirHeaterControl&) (air_heater.cpp:469)
+==15608==    by 0x483AFC: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608== 
+==15608== 477 (96 direct, 381 indirect) bytes in 1 blocks are definitely lost in loss record 20 of 21
+==15608==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x483AEA: AirHeaterControl::AirHeaterControl() (air_heater.cpp:65)
+==15608==    by 0x41953C: AllPanelsLinked::onEntryAction() (main_state_machine.cpp:272)
+==15608==    by 0x475822: State::entry() (state.cpp:36)
+==15608==    by 0x419F21: WithSchema::response(WaitingForPanels*, EvPanelLinked*) (main_state_machine.cpp:376)
+==15608==    by 0x418A08: WaitingForPanels::processEvent(EvPanelLinked*) (main_state_machine.cpp:109)
+==15608==    by 0x461CFB: EvPanelLinked::processFrom(State*) (event.cpp:94)
+==15608==    by 0x4757FB: State::dispatchEvent(Event*) (state.cpp:31)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x475A63: StateMachine::dispatchEvent(Event*) (state.cpp:132)
+==15608==    by 0x41AD3F: MainStateMachine::dispatchEvent() (main_state_machine.cpp:544)
+==15608==    by 0x41EC0E: void iowrx_api::ioWrxHandlerCppDelegate<MainStateMachine, &MainStateMachine::dispatchEvent>(void*) (ioWrx.hpp:99)
+==15608== 
+==15608== 72,704 bytes in 1 blocks are still reachable in loss record 21 of 21
+==15608==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15608==    by 0x5815EFF: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==15608==    by 0x40106B9: call_init.part.0 (dl-init.c:72)
+==15608==    by 0x40107CA: call_init (dl-init.c:30)
+==15608==    by 0x40107CA: _dl_init (dl-init.c:120)
+==15608==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==15608== 
+==15608== LEAK SUMMARY:
+==15608==    definitely lost: 96 bytes in 1 blocks
+==15608==    indirectly lost: 381 bytes in 9 blocks
+==15608==      possibly lost: 0 bytes in 0 blocks
+==15608==    still reachable: 73,015 bytes in 11 blocks
+==15608==         suppressed: 0 bytes in 0 blocks
+==15608== 
+==15608== For counts of detected and suppressed errors, rerun with: -v
+==15608== Use --track-origins=yes to see where uninitialised values come from
+==15608== ERROR SUMMARY: 8 errors from 8 contexts (suppressed: 0 from 0)
+==30568== Memcheck, a memory error detector
+==30568== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==30568== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==30568== Command: /home/frank/workspace_oxygen2/CommandCenter_Intel_8.4/CC_Intel/CommandCenter_Intel_8.4
+==30568== 
+2018-04-27 10:46:15:699	Starting Program ...
+2018-04-27 10:46:19:136	Waiting for the schema
+2018-04-27 10:46:19:204	Schema found
+2018-04-27 10:46:19:227	Waiting for panels to link 
+2018-04-27 10:46:56:025	Panel BLC1 linked
+2018-04-27 10:47:13:643	Panel BLC1 linked
+2018-04-27 10:48:10:190	Panel BLC1 linked
+2018-04-27 10:48:56:522	Panel BLC1 linked
+2018-04-27 10:49:03:499	Panel AHP linked
+2018-04-27 10:49:03:501	All Panels linked 
+psi = 268 tf = -200
+psi = 278 tf = -190
+psi = 287 tf = -180
+psi = 297 tf = -170
+psi = 307 tf = -160
+psi = 317 tf = -150
+psi = 327 tf = -140
+psi = 337 tf = -130
+psi = 348 tf = -120
+psi = 359 tf = -110
+psi = 370 tf = -100
+psi = 381 tf = -90
+psi = 392 tf = -80
+psi = 404 tf = -70
+psi = 415 tf = -60
+psi = 427 tf = -50
+psi = 439 tf = -40
+psi = 451 tf = -30
+psi = 464 tf = -20
+psi = 477 tf = -10
+psi = 489 tf = 0
+psi = 502 tf = 10
+psi = 516 tf = 20
+psi = 529 tf = 30
+psi = 543 tf = 40
+psi = 557 tf = 50
+psi = 571 tf = 60
+psi = 585 tf = 70
+psi = 600 tf = 80
+psi = 614 tf = 90
+psi = 629 tf = 100
+psi = 645 tf = 110
+psi = 660 tf = 120
+psi = 676 tf = 130
+psi = 692 tf = 140
+psi = 708 tf = 150
+psi = 724 tf = 160
+psi = 741 tf = 170
+psi = 758 tf = 180
+psi = 775 tf = 190
+psi = 792 tf = 200
+psi = 810 tf = 210
+psi = 828 tf = 220
+psi = 846 tf = 230
+psi = 864 tf = 240
+psi = 883 tf = 250
+psi = 902 tf = 260
+psi = 921 tf = 270
+psi = 940 tf = 280
+psi = 960 tf = 290
+psi = 980 tf = 300
+psi = 1000 tf = 310
+psi = 1020 tf = 320
+psi = 1041 tf = 330
+psi = 1062 tf = 340
+psi = 1084 tf = 350
+psi = 1105 tf = 360
+psi = 1127 tf = 370
+psi = 1149 tf = 380
+psi = 1172 tf = 390
+psi = 1194 tf = 400
+psi = 1218 tf = 410
+psi = 1241 tf = 420
+psi = 1265 tf = 430
+psi = 1289 tf = 440
+psi = 1313 tf = 450
+psi = 1338 tf = 460
+psi = 1362 tf = 470
+psi = 1388 tf = 480
+psi = 1413 tf = 490
+psi = 1439 tf = 500
+psi = 1465 tf = 510
+psi = 1492 tf = 520
+psi = 1519 tf = 530
+psi = 1546 tf = 540
+psi = 1573 tf = 550
+psi = 1601 tf = 560
+psi = 1629 tf = 570
+psi = 1658 tf = 580
+psi = 1687 tf = 590
+psi = 1716 tf = 600
+psi = 1746 tf = 610
+psi = 1776 tf = 620
+psi = 1806 tf = 630
+psi = 1837 tf = 640
+psi = 1868 tf = 650
+psi = 1899 tf = 660
+psi = 1931 tf = 670
+psi = 1963 tf = 680
+psi = 1996 tf = 690
+psi = 2028 tf = 700
+psi = 2062 tf = 710
+psi = 2095 tf = 720
+psi = 2129 tf = 730
+psi = 2164 tf = 740
+psi = 2199 tf = 750
+psi = 2234 tf = 760
+psi = 2269 tf = 770
+psi = 2305 tf = 780
+psi = 2342 tf = 790
+psi = 2379 tf = 800
+psi = 2416 tf = 810
+psi = 2454 tf = 820
+psi = 2492 tf = 830
+psi = 2530 tf = 840
+psi = 2569 tf = 850
+psi = 2608 tf = 860
+psi = 2648 tf = 870
+psi = 2688 tf = 880
+psi = 2729 tf = 890
+psi = 2770 tf = 900
+psi = 2811 tf = 910
+psi = 2853 tf = 920
+psi = 2896 tf = 930
+psi = 2939 tf = 940
+psi = 2982 tf = 950
+psi = 3026 tf = 960
+psi = 3070 tf = 970
+psi = 3115 tf = 980
+psi = 3160 tf = 990
+psi = 3205 tf = 1000
+2018-04-27 10:49:03:921	alarmVoltageMonitor AlarmStandby
+2018-04-27 10:49:03:926	alarmFireStat AlarmStandby
+2018-04-27 10:49:03:930	alarmBlowerOverload AlarmStandby
+2018-04-27 10:49:03:937	alarmExhaust1Overload AlarmStandby
+2018-04-27 10:49:03:942	alarmFreezestat AlarmStandby
+2018-04-27 10:49:03:948	alarmExhaust2Overload AlarmStandby
+2018-04-27 10:49:03:951	alarmPurge AlarmStandby
+2018-04-27 10:49:03:968	alarmNoAirflow AlarmStandby
+2018-04-27 10:49:04:050	alarmComp1HP AlarmStandby
+2018-04-27 10:49:04:054	alarmComp1LP AlarmStandby
+2018-04-27 10:49:04:057	alarmComp1Oil AlarmStandby
+2018-04-27 10:49:04:062	alarmComp1HighDis AlarmStandby
+2018-04-27 10:49:04:066	alarmComp1LowSH AlarmStandby
+2018-04-27 10:49:04:069	alarmComp1Fault AlarmStandby
+2018-04-27 10:49:04:072	alarmPumpFault AlarmStandby
+2018-04-27 10:49:04:076	alarmOACU1Overload AlarmStandby
+2018-04-27 10:49:04:092	alarmPool1NoWaterflow AlarmStandby
+2018-04-27 10:49:04:096	alarmPool1FlowHigh AlarmStandby
+2018-04-27 10:49:04:100	alarmPool1HighTemp AlarmStandby
+2018-04-27 10:49:04:102	Creating State Machines...
+2018-04-27 10:49:05:966	State: PowerUpBlower
+Choose between Normal or Service Mode
+2018-04-27 10:49:06:057	State: DisabledExhaust1
+2018-04-27 10:49:06:149	State: DisabledExhaust2
+2018-04-27 10:49:06:249	State: DisabledCompressorCircuit1
+2018-04-27 10:49:06:281	State: IdleCompressorReheat
+2018-04-27 10:49:06:296	State: IdleCompressorBypassCompressorBypass
+2018-04-27 10:49:06:313	State: IdleCompressorOACU
+2018-04-27 10:49:06:335	State: IdleCompressorPoolCoax
+2018-04-27 10:49:06:370	State: DisabledHumidityControl
+2018-04-27 10:49:06:406	State: DisabledAirHeaterControl
+2018-04-27 10:49:06:435	State: DisabledSupplyAirControl
+2018-04-27 10:49:06:464	State: DisabledRoomTempControl
+2018-04-27 10:49:06:498	State: DisablePoolWater
+2018-04-27 10:49:06:538	aiReturnAirTemperature Value: 69.0
+2018-04-27 10:49:06:568	aiReturnAirHumidity Value: 41.7
+2018-04-27 10:49:06:593	aiCompressor1SuctionTemperature Value: 74.3
+2018-04-27 10:49:06:619	aiPoolInTemperature Value: 68.7
+2018-04-27 10:49:06:654	State: BlowerActive Event: evBlowerEnabledPar
+2018-04-27 10:49:06:771	State: BlowerActive Event: evCompressorState1
+2018-04-27 10:49:06:776	State: IdleCompressorReheat Event: evReheatValveAdjustment
+2018-04-27 10:49:06:783	State: AdjustingCompressorReheat
+Update Reheat: 90
+dispatchEvent(evPoolHeatValveAdjustment)
+2018-04-27 10:49:06:833	State: IdleCompressorPoolCoax Event: evPoolHeatValveAdjustment
+2018-04-27 10:49:06:834	State: AdjustingCompressorPoolCoax
+2018-04-27 10:49:06:907	aiCompressor1EvaporationTemperature Value: 69.4
+2018-04-27 10:49:06:965	aiPoolOutTemperature Value: 68.3
+2018-04-27 10:49:06:970	diVoltageMonitor Value: OFF
+2018-04-27 10:49:06:977	diBlowerOverload Value: OFF
+2018-04-27 10:49:07:015	aiReturnAirTemperature Value: 69.2
+2018-04-27 10:49:07:040	aiPoolOutTemperature Value: 68.3
+2018-04-27 10:49:07:042	aiReturnAirHumidity Value: 41.8
+2018-04-27 10:49:07:045	diFirestat Value: OFF
+2018-04-27 10:49:07:048	diHighPressure1 Value: OFF
+2018-04-27 10:49:07:051	diLowPressure1 Value: OFF
+2018-04-27 10:49:07:085	aiReturnAirTemperature Value: 69.0
+2018-04-27 10:49:07:086	aiReturnAirHumidity Value: 41.7
+2018-04-27 10:49:07:088	diExhaustFan1Overload Value: ON
+2018-04-27 10:49:07:089	diPool1Waterflow Value: OFF
+2018-04-27 10:49:07:107	aiSupplyAirTemperature Value: 69.0
+2018-04-27 10:49:07:125	aiExhaustAirTemperature Value: 68.1
+2018-04-27 10:49:07:147	aiReturnAirTemperature Value: 69.0
+2018-04-27 10:49:07:223	aiOutdoorAirTemperature Value: 68.0
+2018-04-27 10:49:07:243	aiCompressor1DischargeTemperature Value: 69.2
+2018-04-27 10:49:07:265	aiCompressor1EvaporationTemperature Value: 69.4
+2018-04-27 10:49:07:300	doMorePool1Heat Value: ON
+2018-04-27 10:49:07:343	aiReturnAirTemperature Value: 69.2
+2018-04-27 10:49:07:369	aiCompressor1SuctionTemperature Value: 74.3
+2018-04-27 10:49:07:389	aiPoolInTemperature Value: 68.7
+2018-04-27 10:49:07:411	aiPoolOutTemperature Value: 68.3
+2018-04-27 10:49:07:467	aiReturnAirTemperature Value: 69.0
+2018-04-27 10:49:07:549	aiReturnAirTemperature Value: 69.2
+2018-04-27 10:49:07:569	aiPoolOutTemperature Value: 68.3
+2018-04-27 10:49:08:043	aiPoolOutTemperature Value: 68.3
+2018-04-27 10:49:08:531	aiReturnAirTemperature Value: 69.0
+2018-04-27 10:49:09:070	aiReturnAirTemperature Value: 69.2
+2018-04-27 10:49:09:613	aiReturnAirTemperature Value: 69.0
+2018-04-27 10:49:09:618	aiReturnAirHumidity Value: 41.8
+2018-04-27 10:49:10:074	aiReturnAirHumidity Value: 41.7
+2018-04-27 10:49:11:293	Event: Panel Unlinked, Panel Name: BLC1
+2018-04-27 10:49:11:296	Event: Panel Unlinked, Panel Name: AHP
+Destroying objects!!!
+Event Derived evSchemaAvailable destroyed
+Event Base evSchemaAvailable destroyed
+Event Derived evSchemaLost destroyed
+Event Base evSchemaLost destroyed
+Event Derived evPanelLinked destroyed
+Event Base evPanelLinked destroyed
+Event Derived evPanelUnlinked destroyed
+Event Base evPanelUnlinked destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Base  destroyed
+Event Derived evStartUpTimer destroyed
+Event Base evStartUpTimer destroyed
+Event Derived evStartDelayTimer destroyed
+Event Base evStartDelayTimer destroyed
+Event Derived evStabilizeTimer destroyed
+Event Base evStabilizeTimer destroyed
+Event Derived evAlarmStopTimer destroyed
+Event Base evAlarmStopTimer destroyed
+Event Derived evAdjustSpeedTimer destroyed
+Event Base evAdjustSpeedTimer destroyed
+Event Derived evChangeMode destroyed
+Event Base evChangeMode destroyed
+Event Derived evBlowerEnabledDI destroyed
+Event Base evBlowerEnabledDI destroyed
+Event Derived evBlowerEnabledPar destroyed
+Event Base evBlowerEnabledPar destroyed
+Event Derived evBlowerAlarm destroyed
+Event Base evBlowerAlarm destroyed
+Event Derived evBlowerSpeedChanged destroyed
+Event Base evBlowerSpeedChanged destroyed
+Event Derived evBlowerSecondarySpeedChanged destroyed
+Event Base evBlowerSecondarySpeedChanged destroyed
+Event Derived evBlowerSpeedOverride destroyed
+Event Base evBlowerSpeedOverride destroyed
+Event Derived evBlowerAdjustSpeedChanged destroyed
+Event Base evBlowerAdjustSpeedChanged destroyed
+Event Derived evCommissioned destroyed
+Event Base evCommissioned destroyed
+Event Derived evBlowerState destroyed
+Event Base evBlowerState destroyed
+Event Derived evOccupiedDI destroyed
+Event Base evOccupiedDI destroyed
+Event Derived evOccupiedParam destroyed
+Event Base evOccupiedParam destroyed
+Event Derived evSpectatorsDI destroyed
+Event Base evSpectatorsDI destroyed
+Event Derived evSpectatorsParam destroyed
+Event Base evSpectatorsParam destroyed
+Event Derived evSpectatorsTimer destroyed
+Event Base evSpectatorsTimer destroyed
+Event Derived evAlarmTimer destroyed
+Event Base evAlarmTimer destroyed
+Event Derived evAlarmCleared destroyed
+Event Base evAlarmCleared destroyed
+Event Derived evAlarmExhaust1Overload destroyed
+Event Base evAlarmExhaust1Overload destroyed
+Event Derived evAlarmFreezestat destroyed
+Event Base evAlarmFreezestat destroyed
+Event Derived evLevelChange destroyed
+Event Base evLevelChange destroyed
+Event Derived evExh1AlarmChange destroyed
+Event Base evExh1AlarmChange destroyed
+Event Derived evExhaust1State destroyed
+Event Base evExhaust1State destroyed
+Event Derived evSpectatorModeElapsedTimer destroyed
+Event Base evSpectatorModeElapsedTimer destroyed
+Event Derived evExhaust1AdjustSpeedTimer destroyed
+Event Base evExhaust1AdjustSpeedTimer destroyed
+Event Derived evAirFlowCalibrationTimer destroyed
+Event Base evAirFlowCalibrationTimer destroyed
+Event Derived evExh1PressureReliefTimer destroyed
+Event Base evExh1PressureReliefTimer destroyed
+Event Derived evPurgeDI destroyed
+Event Base evPurgeDI destroyed
+Event Derived evPurgeParam destroyed
+Event Base evPurgeParam destroyed
+Event Derived evEconomizerDemand destroyed
+Event Base evEconomizerDemand destroyed
+Event Derived evStabilizeEconomizerTimer destroyed
+Event Base evStabilizeEconomizerTimer destroyed
+Event Derived evPurgeTimer destroyed
+Event Base evPurgeTimer destroyed
+Event Derived evAlarmExhaust2Overload destroyed
+Event Base evAlarmExhaust2Overload destroyed
+Event Derived evAlarmExhaust2Timer destroyed
+Event Base evAlarmExhaust2Timer destroyed
+Event Derived evAlarmPurge destroyed
+Event Base evAlarmPurge destroyed
+Event Derived evExhaust2State destroyed
+Event Base evExhaust2State destroyed
+Event Derived evExhaust2PurgeState destroyed
+Event Base evExhaust2PurgeState destroyed
+Event Derived evExhaust2AlarmState destroyed
+Event Base evExhaust2AlarmState destroyed
+Event Derived evCompressorsDI destroyed
+Event Base evCompressorsDI destroyed
+Event Derived evCompressorMainEnable destroyed
+Event Base evCompressorMainEnable destroyed
+Event Derived evCompressorDemand destroyed
+Event Base evCompressorDemand destroyed
+Event Derived evCompressorDemandRemoved destroyed
+Event Base evCompressorDemandRemoved destroyed
+Event Derived evACControl destroyed
+Event Base evACControl destroyed
+Event Derived evAlarmHighPressure1 destroyed
+Event Base evAlarmHighPressure1 destroyed
+Event Derived evAlarmLowPressure1 destroyed
+Event Base evAlarmLowPressure1 destroyed
+Event Derived evAlarmOilFault1 destroyed
+Event Base evAlarmOilFault1 destroyed
+Event Derived evAlarmHighDischarge1 destroyed
+Event Base evAlarmHighDischarge1 destroyed
+Event Derived evAlarmHighSuction1 destroyed
+Event Base evAlarmHighSuction1 destroyed
+Event Derived evAlarmSuperheat1 destroyed
+Event Base evAlarmSuperheat1 destroyed
+Event Derived evAlarmCompressorFault1 destroyed
+Event Base evAlarmCompressorFault1 destroyed
+Event Derived evCompressorCircuit1Enable destroyed
+Event Base evCompressorCircuit1Enable destroyed
+Event Derived evForced1 destroyed
+Event Base evForced1 destroyed
+Event Derived evAntiblockTimer1 destroyed
+Event Base evAntiblockTimer1 destroyed
+Event Derived evHighPressureAI1 destroyed
+Event Base evHighPressureAI1 destroyed
+Event Derived evLowPressureAI1 destroyed
+Event Base evLowPressureAI1 destroyed
+Event Derived evHighPressureDI1 destroyed
+Event Base evHighPressureDI1 destroyed
+Event Derived evLowPressureDI1 destroyed
+Event Base evLowPressureDI1 destroyed
+Event Derived evCompressorStabilizeTimer1 destroyed
+Event Base evCompressorStabilizeTimer1 destroyed
+Event Derived evMinRunTimer1 destroyed
+Event Base evMinRunTimer1 destroyed
+Event Derived evCompressorAlarmStopTimer1 destroyed
+Event Base evCompressorAlarmStopTimer1 destroyed
+Event Derived evMinStopTimer1 destroyed
+Event Base evMinStopTimer1 destroyed
+Event Derived evCompressorAlarmCleared1 destroyed
+Event Base evCompressorAlarmCleared1 destroyed
+Event Derived evHighPressureStartDelayTimer1 destroyed
+Event Base evHighPressureStartDelayTimer1 destroyed
+Event Derived evOilFaultStartTimer1 destroyed
+Event Base evOilFaultStartTimer1 destroyed
+Event Derived evHighPressurePoolFaultTimer1 destroyed
+Event Base evHighPressurePoolFaultTimer1 destroyed
+Event Derived evCompressorDO1 destroyed
+Event Base evCompressorDO1 destroyed
+Event Derived evHighPressureOACUMax destroyed
+Event Base evHighPressureOACUMax destroyed
+Event Derived evHighPressureOACUMin destroyed
+Event Base evHighPressureOACUMin destroyed
+Event Derived evCompressorState1 destroyed
+Event Base evCompressorState1 destroyed
+Event Derived evCompressorState2 destroyed
+Event Base evCompressorState2 destroyed
+Event Derived evHighPressureReliefTimer1 destroyed
+Event Base evHighPressureReliefTimer1 destroyed
+Event Derived evDischargeTemp1 destroyed
+Event Base evDischargeTemp1 destroyed
+Event Derived evOilFaultDI1 destroyed
+Event Base evOilFaultDI1 destroyed
+Event Derived evCompressorStartUpTimer1 destroyed
+Event Base evCompressorStartUpTimer1 destroyed
+Event Derived evAlarmTripped destroyed
+Event Base evAlarmTripped destroyed
+Event Derived evAlarmMajor destroyed
+Event Base evAlarmMajor destroyed
+Event Derived evReheatValveAdjustment destroyed
+Event Base evReheatValveAdjustment destroyed
+Event Derived evValveTransit destroyed
+Event Base evValveTransit destroyed
+Event Derived evModeTransitTimer destroyed
+Event Base evModeTransitTimer destroyed
+Event Derived evReheatAdjustmentTimer destroyed
+Event Base evReheatAdjustmentTimer destroyed
+Event Derived evReheatCalibrationTimer destroyed
+Event Base evReheatCalibrationTimer destroyed
+Event Derived evDesignChange destroyed
+Event Base evDesignChange destroyed
+Event Derived evPumpFaultDelayTimer destroyed
+Event Base evPumpFaultDelayTimer destroyed
+Event Derived evPumpFaultDI destroyed
+Event Base evPumpFaultDI destroyed
+Event Derived evOacuPendingOffTimer destroyed
+Event Base evOacuPendingOffTimer destroyed
+Event Derived evAlarmOacuOverload destroyed
+Event Base evAlarmOacuOverload destroyed
+Event Derived evACDO1 destroyed
+Event Base evACDO1 destroyed
+Event Derived evMoreReheatDO destroyed
+Event Base evMoreReheatDO destroyed
+Event Derived evBypassDamperTurnTimer destroyed
+Event Base evBypassDamperTurnTimer destroyed
+Event Derived evBypassDamperStabilizationTimer destroyed
+Event Base evBypassDamperStabilizationTimer destroyed
+Event Derived evReheatDemand destroyed
+Event Base evReheatDemand destroyed
+Event Derived evPoolHeatValveAdjustment destroyed
+Event Base evPoolHeatValveAdjustment destroyed
+Event Derived evPoolHeatAdjustmentTimer destroyed
+Event Base evPoolHeatAdjustmentTimer destroyed
+Event Derived evPoolHeatCalibrationTimer destroyed
+Event Base evPoolHeatCalibrationTimer destroyed
+~IdleCompressorReheat
+~TransitCompressorReheat
+~AdjustingCompressorReheat
+~CalibrateCompressorReheat
+~StoppingCompressorOACU
+~AlarmCompressorOACU
+Event Derived evReturnAirRH destroyed
+Event Base evReturnAirRH destroyed
+Event Derived evEnableParDehum destroyed
+Event Base evEnableParDehum destroyed
+~AirHeaterControlStateMachine
+~DisabledAirHeaterControl
+~EnabledAirHeaterControl
+~OnAirHeaterControl
+~OffAirHeaterControl
+Event Derived evNoAirFlowAlarm destroyed
+Event Base evNoAirFlowAlarm destroyed
+Event Derived evAirHeaterDI destroyed
+Event Base evAirHeaterDI destroyed
+Event Derived evHeatingDemand destroyed
+Event Base evHeatingDemand destroyed
+Event Derived evHeatingTypeChange destroyed
+Event Base evHeatingTypeChange destroyed
+Event Derived evState2OnChange destroyed
+Event Base evState2OnChange destroyed
+Event Derived evAirHeaterState destroyed
+Event Base evAirHeaterState destroyed
+~DisabledSupplyAirControl
+~IdleSupplyAirControl
+~HoldSupplyAirControl
+~HoldCoolSupplyAirControl
+~CoolingSupplyAirControl
+~PressureReliefSupplyAirControl
+~HoldHeatSupplyAirControl
+~HeatingSupplyAirControl
+Event Derived evSupplyAirTemp destroyed
+Event Base evSupplyAirTemp destroyed
+Event Derived evSupplyAirSetpoint destroyed
+Event Base evSupplyAirSetpoint destroyed
+Event Derived evSupplyAirEnable destroyed
+Event Base evSupplyAirEnable destroyed
+~DisabledRoomTempControl
+~IdleRoomTempControl
+~HoldRoomTempControl
+~CoolRoomTempControl
+~HoldRoomTempControl
+~HeatRoomTempControl
+Event Derived evReturnAirTemp destroyed
+Event Base evReturnAirTemp destroyed
+Event Derived evEnableRoomTemp destroyed
+Event Base evEnableRoomTemp destroyed
+Event Derived evACOverrideDI destroyed
+Event Base evACOverrideDI destroyed
+Event Derived evHeatingOverrideDI destroyed
+Event Base evHeatingOverrideDI destroyed
+Event Derived evRtcAuxiliaryTimer destroyed
+Event Base evRtcAuxiliaryTimer destroyed
+Event Derived evPool1Coax destroyed
+Event Base evPool1Coax destroyed
+Event Derived evPool1Aux destroyed
+Event Base evPool1Aux destroyed
+Event Derived evPool1InTempAI destroyed
+Event Base evPool1InTempAI destroyed
+Event Derived evAlarmNoFlow1 destroyed
+Event Base evAlarmNoFlow1 destroyed
+Event Derived evCompressorPoolFaultTimer destroyed
+Event Base evCompressorPoolFaultTimer destroyed
+Event Derived evPoolAlarmStopTimer destroyed
+Event Base evPoolAlarmStopTimer destroyed
+Event Derived evAlarmPoolWaterCleared destroyed
+Event Base evAlarmPoolWaterCleared destroyed
+Event Derived evDegreeMinPoolWater destroyed
+Event Base evDegreeMinPoolWater destroyed
+Event Derived evPressureReliefTimer destroyed
+Event Base evPressureReliefTimer destroyed
+Deleting: alarmBlowerOverload
+Deleting: alarmFireStat
+Deleting: alarmVoltageMonitor
+Deleting: alarmFreezestat
+Deleting: alarmExhaust1Overload
+Deleting: alarmPurge
+Deleting: alarmExhaust2Overload
+Deleting: alarmNoAirflow
+Deleting: alarmOACU1Overload
+Deleting: alarmPumpFault
+Deleting: alarmComp1Fault
+Deleting: alarmComp1LowSH
+Deleting: alarmComp1HighDis
+Deleting: alarmComp1Oil
+Deleting: alarmComp1LP
+Deleting: alarmComp1HP
+Deleting: alarmPool1HighTemp
+Deleting: alarmPool1FlowHigh
+Deleting: alarmPool1NoWaterflow
+Exiting infinite loop...
+
+Exiting ioWrx (C): Terminating without error.
+==30568== Conditional jump or move depends on uninitialised value(s)
+==30568==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==30568==    by 0x5051398: FCGX_Free (fcgiapp.c:2028)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+==30568== Conditional jump or move depends on uninitialised value(s)
+==30568==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==30568==    by 0x50513A1: FCGX_Free (fcgiapp.c:2029)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+==30568== Conditional jump or move depends on uninitialised value(s)
+==30568==    at 0x50512FA: FCGX_FreeStream (fcgiapp.c:1825)
+==30568==    by 0x50513AA: FCGX_Free (fcgiapp.c:2030)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+==30568== Conditional jump or move depends on uninitialised value(s)
+==30568==    at 0x504F02A: FreeParams (fcgiapp.c:1050)
+==30568==    by 0x50513B3: FCGX_Free (fcgiapp.c:2031)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+==30568== Conditional jump or move depends on uninitialised value(s)
+==30568==    at 0x5052357: OS_Close (os_unix.c:724)
+==30568==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+==30568== Syscall param shutdown(s) contains uninitialised byte(s)
+==30568==    at 0x6135577: shutdown (syscall-template.S:84)
+==30568==    by 0x5052436: OS_Close (os_unix.c:756)
+==30568==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+==30568== Syscall param close(fd) contains uninitialised byte(s)
+==30568==    at 0x61248F0: __close_nocancel (syscall-template.S:84)
+==30568==    by 0x50524D9: OS_Close (os_unix.c:775)
+==30568==    by 0x50513C7: FCGX_Free (fcgiapp.c:2034)
+==30568==    by 0x4F23B69: iowrx_cpplib::FCGISocket::~FCGISocket() (FCGISocket.cpp:46)
+==30568==    by 0x501DD89: ~fcgi_cap (fcgi_cap.cpp:32)
+==30568==    by 0x501DD89: iowrx_cpplib::fcgi_cap::~fcgi_cap() (fcgi_cap.cpp:35)
+==30568==    by 0x4F67A5C: delete_caps (eproc.cpp:494)
+==30568==    by 0x4F67A5C: ~eproc (eproc.cpp:146)
+==30568==    by 0x4F67A5C: iowrx_cpplib::eproc::~eproc() (eproc.cpp:147)
+==30568==    by 0x504EEC1: iowrx_cpplib::G::_free_on_exit() (global.cpp:35)
+==30568==    by 0x5025004: free_on_exit (global.h:119)
+==30568==    by 0x5025004: iowrx_cpplib::apimsg::subapi_exit(int) (apimsg.cpp:522)
+==30568==    by 0x502560B: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:186)
+==30568==    by 0x487385: main (command_center.cpp:55)
+==30568== 
+Event Base  destroyed
+==30568== 
+==30568== HEAP SUMMARY:
+==30568==     in use at exit: 90,184 bytes in 298 blocks
+==30568==   total heap usage: 2,820,121 allocs, 2,819,823 frees, 117,111,791 bytes allocated
+==30568== 
+==30568== 64 bytes in 1 blocks are indirectly lost in loss record 1 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D078: redim_iparams (emsg.cpp:205)
+==30568==    by 0x4F9D078: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:128)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568==    by 0x4F09465: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:717)
+==30568== 
+==30568== 96 bytes in 3 blocks are indirectly lost in loss record 2 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F88731: iowrx_cpplib::taglist::insert_common(iowrx_cpplib::tag*) (taglist.cpp:515)
+==30568==    by 0x4F88932: iowrx_cpplib::taglist::insert(iowrx_cpplib::tag*) (taglist.cpp:584)
+==30568==    by 0x4F9CDBE: insert_copy (estringlist.h:105)
+==30568==    by 0x4F9CDBE: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDBE: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDBE: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568== 
+==30568== 96 bytes in 3 blocks are indirectly lost in loss record 3 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F88948: iowrx_cpplib::taglist::insert(iowrx_cpplib::tag*) (taglist.cpp:599)
+==30568==    by 0x4F9CDBE: insert_copy (estringlist.h:105)
+==30568==    by 0x4F9CDBE: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDBE: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDBE: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568== 
+==30568== 104 bytes in 1 blocks are indirectly lost in loss record 4 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D19A: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:132)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568==    by 0x4F09465: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:717)
+==30568== 
+==30568== 128 bytes in 2 blocks are indirectly lost in loss record 5 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D078: redim_iparams (emsg.cpp:205)
+==30568==    by 0x4F9D078: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:128)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568==    by 0x4F09418: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:890)
+==30568== 
+==30568== 192 bytes in 6 blocks are indirectly lost in loss record 6 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F88731: iowrx_cpplib::taglist::insert_common(iowrx_cpplib::tag*) (taglist.cpp:515)
+==30568==    by 0x4F88932: iowrx_cpplib::taglist::insert(iowrx_cpplib::tag*) (taglist.cpp:584)
+==30568==    by 0x4F9CDBE: insert_copy (estringlist.h:105)
+==30568==    by 0x4F9CDBE: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDBE: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDBE: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568== 
+==30568== 208 bytes in 2 blocks are indirectly lost in loss record 7 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D19A: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:132)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568==    by 0x4F09418: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:890)
+==30568== 
+==30568== 336 bytes in 6 blocks are indirectly lost in loss record 8 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9CD8B: insert_copy (estringlist.h:100)
+==30568==    by 0x4F9CD8B: append_list (estringlist.h:89)
+==30568==    by 0x4F9CD8B: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CD8B: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568== 
+==30568== 352 bytes in 11 blocks are indirectly lost in loss record 9 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F88731: iowrx_cpplib::taglist::insert_common(iowrx_cpplib::tag*) (taglist.cpp:515)
+==30568==    by 0x4F88932: iowrx_cpplib::taglist::insert(iowrx_cpplib::tag*) (taglist.cpp:584)
+==30568==    by 0x4F9CDBE: insert_copy (estringlist.h:105)
+==30568==    by 0x4F9CDBE: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDBE: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDBE: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568== 
+==30568== 384 bytes in 6 blocks are indirectly lost in loss record 10 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D078: redim_iparams (emsg.cpp:205)
+==30568==    by 0x4F9D078: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:128)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568==    by 0x48733C: main (command_center.cpp:48)
+==30568== 
+==30568== 384 bytes in 6 blocks are indirectly lost in loss record 11 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F11F2C: redim (estring.cpp:291)
+==30568==    by 0x4F11F2C: iowrx_cpplib::estring::copy(iowrx_cpplib::estring const&) (estring.cpp:433)
+==30568==    by 0x4F9CDA6: insert_copy (estringlist.h:102)
+==30568==    by 0x4F9CDA6: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDA6: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDA6: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568== 
+==30568== 384 bytes in 12 blocks are indirectly lost in loss record 12 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F88948: iowrx_cpplib::taglist::insert(iowrx_cpplib::tag*) (taglist.cpp:599)
+==30568==    by 0x4F9CDBE: insert_copy (estringlist.h:105)
+==30568==    by 0x4F9CDBE: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDBE: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDBE: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568== 
+==30568== 576 bytes in 18 blocks are indirectly lost in loss record 13 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F11F2C: redim (estring.cpp:291)
+==30568==    by 0x4F11F2C: iowrx_cpplib::estring::copy(iowrx_cpplib::estring const&) (estring.cpp:433)
+==30568==    by 0x4F9CDA6: insert_copy (estringlist.h:102)
+==30568==    by 0x4F9CDA6: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDA6: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDA6: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568== 
+==30568== 624 bytes in 6 blocks are indirectly lost in loss record 14 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D19A: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:132)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568==    by 0x48733C: main (command_center.cpp:48)
+==30568== 
+==30568== 704 bytes in 11 blocks are indirectly lost in loss record 15 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D078: redim_iparams (emsg.cpp:205)
+==30568==    by 0x4F9D078: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:128)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568==    by 0x48733C: main (command_center.cpp:48)
+==30568== 
+==30568== 712 (240 direct, 472 indirect) bytes in 1 blocks are definitely lost in loss record 16 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9379F: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F9379F: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568==    by 0x4F09465: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:717)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568== 
+==30568== 1,008 bytes in 18 blocks are indirectly lost in loss record 17 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9CD8B: insert_copy (estringlist.h:100)
+==30568==    by 0x4F9CD8B: append_list (estringlist.h:89)
+==30568==    by 0x4F9CD8B: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CD8B: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568== 
+==30568== 1,144 bytes in 11 blocks are indirectly lost in loss record 18 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9D19A: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:132)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568==    by 0x48733C: main (command_center.cpp:48)
+==30568== 
+==30568== 1,408 bytes in 44 blocks are indirectly lost in loss record 19 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F88948: iowrx_cpplib::taglist::insert(iowrx_cpplib::tag*) (taglist.cpp:599)
+==30568==    by 0x4F9CDBE: insert_copy (estringlist.h:105)
+==30568==    by 0x4F9CDBE: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDBE: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDBE: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568== 
+==30568== 1,408 bytes in 55 blocks are indirectly lost in loss record 20 of 25
+==30568==    at 0x4C2E80F: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F11F2C: redim (estring.cpp:291)
+==30568==    by 0x4F11F2C: iowrx_cpplib::estring::copy(iowrx_cpplib::estring const&) (estring.cpp:433)
+==30568==    by 0x4F9CDA6: insert_copy (estringlist.h:102)
+==30568==    by 0x4F9CDA6: append_list (estringlist.h:89)
+==30568==    by 0x4F9CDA6: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CDA6: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568== 
+==30568== 1,424 (480 direct, 944 indirect) bytes in 2 blocks are definitely lost in loss record 21 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9379F: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F9379F: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F45790: dispatch_linked_status_event (panio.cpp:170)
+==30568==    by 0x4F45790: iowrx_cpplib::panio::update_linked_suid_and_dispatch_changes_in_linked_status(bool, unsigned int) (panio.cpp:194)
+==30568==    by 0x4F446CC: iowrx_cpplib::schema::update_panel_deployed_not_ready(unsigned int) (schema.cpp:221)
+==30568==    by 0x4FE98CC: iowrx_cpplib::schema_base_cap::handle_other_pact_if_enabled(iowrx_cpplib::pact&) (schema_base_cap.cpp:74)
+==30568==    by 0x501FD57: iowrx_cpplib::base_cap::handle_pact(iowrx_cpplib::pact&) (base_cap.cpp:435)
+==30568==    by 0x4F67C4F: iowrx_cpplib::eproc::bcast_pact(iowrx_cpplib::pact&) (eproc.cpp:660)
+==30568==    by 0x4FAFF08: iowrx_cpplib::ebox_peer::set_not_ready(iowrx_cpplib::READYSTATE) (ebox_peer.cpp:551)
+==30568==    by 0x4F0DAA1: set_not_ready_if_ready (ebox_peer.h:690)
+==30568==    by 0x4F0DAA1: iowrx_cpplib::EBoxConnectionLostWait::wait_timeout() (ebox_connection_lost.cpp:40)
+==30568==    by 0x4F09418: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:890)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568== 
+==30568== 3,080 bytes in 55 blocks are indirectly lost in loss record 22 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9CD8B: insert_copy (estringlist.h:100)
+==30568==    by 0x4F9CD8B: append_list (estringlist.h:89)
+==30568==    by 0x4F9CD8B: copy_list (estringlist.h:76)
+==30568==    by 0x4F9CD8B: iowrx_cpplib::emsg::copy(iowrx_cpplib::emsg const&, bool, bool) (emsg.cpp:817)
+==30568==    by 0x4F9D1C0: copy_for_self (emsg.h:754)
+==30568==    by 0x4F9D1C0: iowrx_cpplib::emsg::emsg(iowrx_cpplib::emsg const&) (emsg.cpp:134)
+==30568==    by 0x4F937AD: event (event.h:46)
+==30568==    by 0x4F937AD: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F937AD: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568== 
+==30568== 4,608 (1,440 direct, 3,168 indirect) bytes in 6 blocks are definitely lost in loss record 23 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9379F: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F9379F: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F4A6F7: iowrx_cpplib::eptio::repeat_event_from_linked_object_to_schema_subscribers() (eptio.cpp:325)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568==    by 0x48733C: main (command_center.cpp:48)
+==30568== 
+==30568== 10,736 (2,640 direct, 8,096 indirect) bytes in 11 blocks are definitely lost in loss record 24 of 25
+==30568==    at 0x4C2E0EF: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x4F9379F: record_last_event (type_subs.cpp:591)
+==30568==    by 0x4F9379F: iowrx_cpplib::type_subs::dispatch_event_eresult(iowrx_cpplib::event*, bool) (type_subs.cpp:599)
+==30568==    by 0x4F9422E: iowrx_cpplib::obj_subs::dispatch_event(iowrx_cpplib::event*, bool) (obj_subs.cpp:208)
+==30568==    by 0x4F5DEC2: iowrx_cpplib::dio::repeat_event_from_linked_object_to_schema_subscribers() (dio.cpp:1267)
+==30568==    by 0x501BD22: call_handler (handler_base.h:82)
+==30568==    by 0x501BD22: iowrx_cpplib::handler_cap::call_handler_or_default(iowrx_cpplib::event*) (handler_cap.cpp:578)
+==30568==    by 0x501C05F: iowrx_cpplib::handler_cap::execute_handler() (handler_cap.cpp:413)
+==30568==    by 0x4F09217: iowrx_cpplib::WaitsList::wait_for_listed_events(iowrx_cpplib::Wait*, iowrx_cpplib::WAITPRIORITY) (waitslist.cpp:673)
+==30568==    by 0x4F0EBF0: iowrx_cpplib::ListedWait::wait_for_outcome(iowrx_cpplib::WAITPRIORITY) (listed_wait.cpp:74)
+==30568==    by 0x5012BE4: iowrx_cpplib::loop_cap::wait_for_processing_interval() (loop_cap.cpp:218)
+==30568==    by 0x502526F: subapi_process_next_events (apimsg.cpp:115)
+==30568==    by 0x502526F: iowrx_cpplib::apimsg::subapi_run(bool) (apimsg.cpp:166)
+==30568==    by 0x48733C: main (command_center.cpp:48)
+==30568== 
+==30568== 72,704 bytes in 1 blocks are still reachable in loss record 25 of 25
+==30568==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30568==    by 0x5815EFF: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==30568==    by 0x40106B9: call_init.part.0 (dl-init.c:72)
+==30568==    by 0x40107CA: call_init (dl-init.c:30)
+==30568==    by 0x40107CA: _dl_init (dl-init.c:120)
+==30568==    by 0x4000C69: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+==30568== 
+==30568== LEAK SUMMARY:
+==30568==    definitely lost: 4,800 bytes in 20 blocks
+==30568==    indirectly lost: 12,680 bytes in 277 blocks
+==30568==      possibly lost: 0 bytes in 0 blocks
+==30568==    still reachable: 72,704 bytes in 1 blocks
+==30568==         suppressed: 0 bytes in 0 blocks
+==30568== 
+==30568== For counts of detected and suppressed errors, rerun with: -v
+==30568== Use --track-origins=yes to see where uninitialised values come from
+==30568== ERROR SUMMARY: 11 errors from 11 contexts (suppressed: 0 from 0)
